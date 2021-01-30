@@ -1,0 +1,787 @@
+// DEFINE VARIABLES
+
+$primary: #4285f4;
+$secondary: #9e6db1;
+$success: #0f9d58;
+$warning: #f4b400;
+$danger: #db4437;
+$info: #43bedd;
+$default: #bce6e5;
+
+$red: #f44336;
+$pink: #e91e63;
+$purple: #9c27b0;
+$deep-purple: #673ab7;
+$indigo: #3f51b5;
+$blue: #2196f3;
+$light-blue: #03a9f4;
+$cyan: #00bcd4;
+$teal: #009688;
+$green: #4caf50;
+$light-green: #8bc34a;
+$lime: #cddc39;
+$yellow: #ffeb3b;
+$amber: #ffc107;
+$orange: #ff9800;
+$deep-orange: #ff5722;
+// brown
+$brown-lighten-1: #efebe9;
+$brown-lighten-2: #d7ccc8;
+$brown-lighten-3: #bcaaa4;
+$brown-lighten-4: #a1887f;
+$brown-lighten-5: #8d6e63;
+$brown: #795548;
+$brown-darken-1: #6d4c41;
+$brown-darken-2: #5d4037;
+$brown-darken-3: #4e342e;
+$brown-darken-4: #3e2723;
+// grey
+$grey-lighten-1: #fafafa;
+$grey-lighten-2: #f5f5f5;
+$grey-lighten-3: #eee;
+$grey-lighten-4: #e0e0e0;
+$grey-lighten-5: #bdbdbd;
+$grey: #9e9e9e;
+$grey-darken-1: #757575;
+$grey-darken-2: #616161;
+$grey-darken-3: #424242;
+$grey-darken-4: #212121;
+// blue grey
+$blue-grey-lighten-1: #eceff1;
+$blue-grey-lighten-2: #cfd8dc;
+$blue-grey-lighten-3: #b0bec5;
+$blue-grey-lighten-4: #90a4ae;
+$blue-grey-lighten-5: #78909c;
+$blue-grey: #607d8b;
+$blue-grey-darken-1: #546e7a;
+$blue-grey-darken-2: #455a64;
+$blue-grey-darken-3: #37474f;
+$blue-grey-darken-4: #263238;
+
+$inno: #00838f;
+$dark: #424242;
+$black: #000;
+$light: #e0e0e0;
+$white: #fff;
+
+$airbnb: #fd5c63;
+$alipay: #0e9dec;
+$amazon: #ff9900;
+$amazon-pay: #333e47;
+$amex: #2e77bb;
+$android: #a4c639;
+$angular: #b52e31;
+$apple: #000;
+$atlassian: #0052cc;
+$bitcoin: #f2a900;
+$blogger: #f57d00;
+$bootstrap: #602c50;
+$codepen: #000;
+$digital-ocean: #008bcf;
+$discover: #e55c20;
+$docker: #0db7ed;
+$dribbble: #ea4c89;
+$dropbox: #007ee5;
+$ethereum: #3c3c3d;
+$fb: #3c5a99;
+$fb-msg: #0084ff;
+$free-code-camp: #006400;
+$git: #f1502f;
+$github: #333;
+$gplus: #dd4b39;
+$gwallet: #000;
+$imdb: #f3ce13;
+$instagram: #833ab4;
+$jcb: #000;
+$line: #00c300;
+$linkedin: #0077b5;
+$mastercard: #eb001b;
+$medium: #000;
+$microsoft: #f65314;
+$monero: #ff6600;
+$paypal: #003087;
+$pinterest: #bd081c;
+$playstation: #003791;
+$quora: #b92b27;
+$reddit: #ff4500;
+$redhat: #cc0000;
+$skype: #00aff0;
+$slack: #6ecadc;
+$snapchat: #fffc00;
+$soundcloud: #ff8800;
+$spotify: #1db954;
+$stack-exchange: #1e5397;
+$stack-overflow: #f48024;
+$steam: #000;
+$stripe: #5433ff;
+$telegram: #0088cc;
+$tripadvisor: #00af87;
+$tumblr: #35465c;
+$twitter: #1da1f2;
+$uber: #000;
+$viacoin: #000;
+$vimeo: #1ab7ea;
+$visa: #1a1f71;
+$vk: #45668e;
+$waze: #7ec0ee;
+$wechat: #7bb32e;
+$weibo: #df2029;
+$windows: #0078d7;
+$whatsapp: #25d366;
+$wordpress: #21759b;
+$xbox: #52b043;
+$yahoo: #410093;
+$yandex: #ff0000;
+$youtube: #ff0000;
+
+$inno-gradient-colors: (
+	"aqua": (#e0f2f1, #00e5ff),
+	"blue": (#3949ab, #4fc3f7),
+	"grey": (#cfd8dc, #546e7a),
+	"instagram": (#d500f9 ,#ffa000),
+	"pink": (#ff5252, #f48fb1),
+	"rose": (#ea80fc, #fce4ec),
+	"orange": (#fc4a1a, #f7b733),
+	"purple": (#6a3093, #a044ff),
+	"mojito": (#1d976c, #93f9b9),
+	"ukraine": (#004ff9, #fff94c)
+);
+
+$alert-colors: (
+	"primary": ($primary, $white),
+	"secondary": ($secondary, $white),
+	"success": ($success, $white),
+	"warning": ($warning, $white),
+	"danger": ($danger, $white),
+	"info": ($info, $white),
+	"default": ($default, $black),
+	"red": ($red, $white),
+	"pink": ($pink, $white),
+	"purple": ($purple, $white),
+	"deep-purple": ($deep-purple, $white),
+	"indigo": ($indigo, $white),
+	"blue": ($blue, $white),
+	"light-blue": ($light-blue, $white),
+	"cyan": ($cyan, $white),
+	"teal": ($teal, $white),
+	"green": ($green, $white),
+	"light-green": ($light-green, $white),
+	"lime": ($lime, $white),
+	"yellow": ($yellow, $black),
+	"amber": ($amber, $white),
+	"orange": ($orange, $white),
+	"deep-orange": ($deep-orange, $white),
+	"brown": ($brown, $white),
+	"grey": ($grey, $white),
+	"blue-grey": ($blue-grey, $white),
+	"dark": ($dark, $white),
+	"black": ($black, $white),
+	"light": ($light, $black),
+	"white": ($white, $black)
+);
+
+$badge-colors: (
+	"primary": ($primary, #3f74e0, $white),
+	"secondary": ($secondary, #7a3995, $white),
+	"success": ($success, #018b4c, $white),
+	"warning": ($warning, #f49000, $white),
+	"danger": ($danger, #bc352b, $white),
+	"info": ($info, #3699af, $white),
+	"default": ($default, #90d7d5, $black),
+	"red": ($red, #e53935, $white),
+	"pink": ($pink, #d81b60, $white),
+	"purple": ($purple, #7b1fa2, $white),
+	"deep-purple": ($deep-purple, #512da8, $white),
+	"indigo": ($indigo, #303f9f, $white),
+	"blue": ($blue, #1976d2, $white),
+	"light-blue": ($light-blue, #039be5, $white),
+	"cyan": ($cyan, #00acc1, $white),
+	"teal": ($teal, #00796b, $white),
+	"green": ($green, #388e3c, $white),
+	"light-green": ($light-green, #689f38, $white),
+	"lime": ($lime, #afb42b, $white),
+	"yellow": ($yellow, #fbc02d, $black),
+	"amber": ($amber, #ffa000, $white),
+	"orange": ($orange, #f57c00, $white),
+	"deep-orange": ($deep-orange, #d84315, $white),
+	"brown": ($brown, #5d4037, $white),
+	"grey": ($grey, #757575, $white),
+	"blue-grey": ($blue-grey, #455a64, $white),
+	"black": ($black, $black, $white),
+	"dark": ($dark, #212121, $white),
+	"light": (#f7f7f7, #e5e5e5, $black),
+	"white": ($white, $white, $black)
+);
+
+$bg-default-colors: (
+	"primary": ($primary, #0056b3),
+	"secondary": ($secondary, #5e2e85),
+	"success": ($success, #19692c),
+	"warning": ($warning, #ba8b00),
+	"danger": ($danger, #a71d2a),
+	"info": ($info, #0f6674),
+	"default": ($default, #298e85),
+	"dark": ($dark, #000000),
+	"light": ($light, #9e9e9e)
+);
+
+$btn-contain-colors: (
+	"primary": ($primary, #4295ff, #3f74e0, $grey-lighten-1),
+	"secondary": ($secondary, #b994c8, #7a3995, $grey-lighten-1),
+	"success": ($success, #19ac62, #018b4c, $grey-lighten-1),
+	"warning": ($warning, #f4c10b, #f49000, $grey-lighten-1),
+	"danger": ($danger, #ea4e38, #bc352b, $grey-lighten-1),
+	"info": ($info, #61d2eb, #3699af, $grey-lighten-1),
+	"default": ($default, #e4f5f5, #90d7d5, $grey-darken-4),
+	"red": ($red, #ef5350, #e53935, $grey-lighten-1),
+	"pink": ($pink, #f06292, #d81b60, $grey-lighten-1),
+	"purple": ($purple, #ab47bc, #7b1fa2, $grey-lighten-1),
+	"deep-purple": ($deep-purple, #7e57c2, #512da8, $grey-lighten-1),
+	"indigo": ($indigo, #5c6bc0, #303f9f, $grey-lighten-1),
+	"blue": ($blue, #42a5f5, #1976d2, $grey-lighten-1),
+	"light-blue": ($light-blue, #29b6f6, #039be5, $grey-lighten-1),
+	"cyan": ($cyan, #4dd0e1, #00acc1, $grey-lighten-1),
+	"teal": ($teal, #26a69a, #00796b, $grey-lighten-1),
+	"green": ($green, #66bb6a, #388e3c, $grey-lighten-1),
+	"light-green": ($light-green, #9ccc65, #689f38, $grey-lighten-1),
+	"lime": ($lime, #dce775, #afb42b, $grey-lighten-1),
+	"yellow": ($yellow, #ffee58, #fbc02d, $grey-darken-4),
+	"amber": ($amber, #ffca28, #ffa000, $grey-lighten-1),
+	"orange": ($orange, #ffa726, #f57c00, $grey-lighten-1),
+	"deep-orange": ($deep-orange, #ff7043, #d84315, $grey-lighten-1),
+	"brown": ($brown, #8d6e63, #5d4037, $grey-lighten-1),
+	"grey": ($grey, #bdbdbd, #757575, $grey-lighten-1),
+	"blue-grey": ($blue-grey, #78909c, #455a64, $grey-lighten-1),
+	"black": ($black, #262626, $black, $grey-lighten-1),
+	"dark": ($dark, #616161, #212121, $grey-lighten-1),
+	"light": (#f7f7f7, #fbfbfb, #e5e5e5, $grey-darken-4),
+	"white": ($white, $grey-lighten-1, $grey-lighten-2, $grey-darken-4),
+	"inno": ($inno, #00acc1, #006064, $grey-lighten-1),
+	"comment": (#30cfc0, #45d4c6, #1d7c73, $grey-lighten-1),
+	"email": (#4b515d, #565d6b, #1d2025, $grey-lighten-1),
+	"phone": (#5fb422, #6ec42a, #318c0a, $grey-lighten-1)
+);
+
+$btn-outline-colors: (
+	"primary": $primary,
+	"default": $default,
+	"secondary": $secondary,
+	"success": $success,
+	"info": $info,
+	"warning": $warning,
+	"danger": $danger,
+	"red": $red,
+	"pink": $pink,
+	"purple": $purple,
+	"deep-purple": $deep-purple,
+	"indigo": $indigo,
+	"blue": $blue,
+	"light-blue": $light-blue,
+	"cyan": $cyan,
+	"teal": $teal,
+	"green": $green,
+	"light-green": $light-green,
+	"lime": $lime,
+	"yellow": $yellow,
+	"amber": $amber,
+	"orange": $orange,
+	"deep-orange": $deep-orange,
+	"brown": $brown,
+	"grey": $grey,
+	"blue-grey": $blue-grey,
+	"dark": $dark,
+	"black": $black,
+	"inno": $inno
+);
+
+$btn-brand-colors: (
+	"airbnb": ($airbnb, #ef7c83, #e33944, $grey-lighten-1),
+	"alipay": ($alipay, #0dadfb, #0c7ac4, $grey-lighten-1),
+	"amazon": ($amazon, #ffa826, #ef6d00, $grey-lighten-1),
+	"amazon-pay": ($amazon-pay, #516472, #222a30, $grey-lighten-1),
+	"amex": ($amex, #3788cd, #1a4a8a, $grey-lighten-1),
+	"android": ($android, #b0d840, #889927, $grey-lighten-1),
+	"angular": ($angular, #d43c3d, #990608, $grey-lighten-1),
+	"apple": ($apple, #262626, #000, $grey-lighten-1),
+	"atlassian": ($atlassian, #456cd4, #003fb5, $grey-lighten-1),
+	"bitcoin": ($bitcoin, #f2b706, #f18700, $grey-lighten-1),
+	"blogger": ($blogger, #fb8f01, #e65400, $grey-lighten-1),
+	"bootstrap": ($bootstrap, #9c366b, #401433, $grey-lighten-1),
+	"codepen": ($codepen, #262626, #000, $grey-lighten-1),
+	"digital-ocean": ($digital-ocean, #059de3, #005999, $grey-lighten-1),
+	"discover": ($discover, #f07323, #d6551e, $grey-lighten-1),
+	"docker": ($docker, #48c5ee, #008bca, $grey-lighten-1),
+	"dribbble": ($dribbble, #ef699e, #c22968, $grey-lighten-1),
+	"dropbox": ($dropbox, #0091f9, #004eb4, $grey-lighten-1),
+	"ethereum": ($ethereum, #5b5b5c, #1c1c1d, $grey-lighten-1),
+	"fb": ($fb, #5a71a6, #2d4884, $grey-lighten-1),
+	"fb-msg": ($fb-msg, #0092ff, #1271eb, $grey-lighten-1),
+	"free-code-camp": ($free-code-camp, #378616, #024602, $grey-lighten-1),
+	"git": ($git, #fc6f4f, #d44226, $grey-lighten-1),
+	"github": ($github, #515151, #131313, $grey-lighten-1),
+	"gplus": ($gplus, #eb553a, #be3d2d, $grey-lighten-1),
+	"gwallet": ($gwallet, #262626, #000, $grey-lighten-1),
+	"imdb": ($imdb, #f2df17, #f19d00, $grey-lighten-1),
+	"instagram": ($instagram, #913ebb, #5e30a2, $grey-lighten-1),
+	"jcb": ($jcb, #262626, #000, $grey-lighten-1),
+	"line": ($line, #4acd41, #00a100, $grey-lighten-1),
+	"linkedin": ($linkedin, #0087c9, #005693, $grey-lighten-1),
+	"mastercard": ($mastercard, #f63a3c, #bf0000, $grey-lighten-1),
+	"medium": ($medium, #262626, #000, $grey-lighten-1),
+	"microsoft": ($microsoft, #ff723e, #da460a, $grey-lighten-1),
+	"monero": ($monero, #ff8700, #c34f02, $grey-lighten-1),
+	"paypal": ($paypal, #1c429e, #001e72, $grey-lighten-1),
+	"pinterest": ($pinterest, #eb3037, #bf0218, $grey-lighten-1),
+	"playstation": ($playstation, #1e4ba9, #00267c, $grey-lighten-1),
+	"quora": ($quora, #d63c39, #99231f, $grey-lighten-1),
+	"reddit": ($reddit, #ff4a05, #e33400, $grey-lighten-1),
+	"redhat": ($redhat, #ff391c, #b60101, $grey-lighten-1),
+	"skype": ($skype, #43bef2, #0082cb, $grey-lighten-1),
+	"slack": ($slack, #90d9e8, #54b4cb, $grey-lighten-1),
+	"snapchat": ($snapchat, #f3f136, #ffb300, $grey-lighten-1),
+	"soundcloud": ($soundcloud, #ff9400, #f36703, $grey-lighten-1),
+	"spotify": ($spotify, #4cc46e, #008633, $grey-lighten-1),
+	"stack-exchange": ($stack-exchange, #2372ba, #1e5397, $grey-lighten-1),
+	"stack-overflow": ($stack-overflow, #f9aa31, #e95908, $grey-lighten-1),
+	"steam": ($steam, #262626, #000, $grey-lighten-1),
+	"stripe": ($stripe, #7855ff, #2526f0, $grey-lighten-1),
+	"telegram": ($telegram, #059be0, #005796, $grey-lighten-1),
+	"tripadvisor": ($tripadvisor, #45be9b, #008258, $grey-lighten-1),
+	"tumblr": ($tumblr, #445972, #223144, $grey-lighten-1),
+	"twitter": ($twitter, #53b1f3, #0071d0, $grey-lighten-1),
+	"uber": ($uber, #262626, #000, $grey-lighten-1),
+	"viacoin": ($viacoin, #262626, #000, $grey-lighten-1),
+	"vimeo": ($vimeo, #4ac3ec, #0089c7, $grey-lighten-1),
+	"visa": ($visa, #273086, #070b56, $grey-lighten-1),
+	"vk": ($vk, #4e76a0, #364a6d, $grey-lighten-1),
+	"waze": ($waze, #b1d8f4, #0084df, $grey-lighten-1),
+	"wechat": ($wechat, #8bc336, #528b1a, $grey-lighten-1),
+	"weibo": ($weibo, #ff382f, #c40014, $grey-lighten-1),
+	"windows": ($windows, #0388ea, #0047a6, $grey-lighten-1),
+	"whatsapp": ($whatsapp, #61dc82, #00a62e, $grey-lighten-1),
+	"wordpress": ($wordpress, #2385ae, #17557a, $grey-lighten-1),
+	"xbox": ($xbox, #6abc60, #317e26, $grey-lighten-1),
+	"yahoo": ($yahoo, #66039f, #270056, $grey-lighten-1),
+	"yandex": ($yandex, #ff5436, #b30000, $grey-lighten-1),
+	"youtube": ($youtube, #ff5436, #b30000, $grey-lighten-1)
+);
+
+$inno-default-md-colors: (
+	"primary": $primary,
+	"secondary": $secondary,
+	"success": $success,
+	"warning": $warning,
+	"danger": $danger, 
+	"info": $info,
+	"default": $default,
+	"red": $red,
+	"pink": $pink,
+	"purple": $purple,
+	"deep-purple": $deep-purple,
+	"indigo": $indigo,
+	"blue": $blue,
+	"light-blue": $light-blue,
+	"cyan": $cyan,
+	"teal": $teal,
+	"green": $green,
+	"light-green": $light-green,
+	"lime": $lime,
+	"yellow": $yellow,
+	"amber": $amber,
+	"orange": $orange,
+	"deep-orange": $deep-orange,
+	"brown": $brown,
+	"grey": $grey,
+	"blue-grey": $blue-grey,
+);
+
+$db-lw-colors: (
+	"dark": $dark,
+	"black": $black,
+	"light": $light,
+	"white": $white
+);
+
+$filter-colors: (
+	"red": (244, 67, 54),
+	"pink": (233, 30, 99),
+	"purple": (156, 39, 176),
+	"deep-purple": (103, 58, 183),
+	"indigo": (63, 81, 181),
+	"blue": (33, 150, 243),
+	"light-blue": (3, 169, 244),
+	"cyan": (0, 188, 212),
+	"teal": (0, 150, 136),
+	"green": (76, 175, 80),
+	"light-green": (139, 195, 74),
+	"lime": (205, 220, 57),
+	"yellow": (255, 235, 59),
+	"amber": (255, 193, 7),
+	"orange": (255, 152, 0),
+	"deep-orange": (255, 87, 34),
+	"brown": (121, 85, 72),
+	"grey": (158, 158, 158),
+	"blue-grey": (96, 125, 139),
+	"black": (0, 0, 0),
+	"white": (255, 255, 255)
+);
+
+$pagination-colors: (
+	"primary": ($primary, $white),
+	"secondary": ($secondary, $white),
+	"success": ($success, $white),
+	"warning": ($warning, $white),
+	"danger": ($danger, $white),
+	"info": ($info, $white),
+	"default": ($default, $black),
+	"red": ($red, $white),
+	"pink": ($pink, $white),
+	"purple": ($purple, $white),
+	"deep-purple": ($deep-purple, $white),
+	"indigo": ($indigo, $white),
+	"blue": ($blue, $white),
+	"light-blue": (#03a9f4, $white),
+	"cyan": ($cyan, $white),
+	"teal": ($teal, $white),
+	"green": ($green, $white),
+	"light-green": ($light-green, $white),
+	"lime": ($lime, $white),
+	"yellow": ($yellow, $black),
+	"amber": ($amber, $white),
+	"orange": ($orange, $white),
+	"deep-orange": ($deep-orange, $white),
+	"brown": ($brown, $white),
+	"grey": ($grey, $white),
+	"blue-grey": ($blue-grey, $white),
+	"dark": ($dark, $white),
+	"black": ($black, $white),
+	"light": ($light, $black),
+	"white": ($white, $black)
+);
+
+$text-colors: (
+	"primary": ($primary, #0056b3),
+	"secondary": ($secondary, #5e2e85),
+	"success": ($success, #19692c),
+	"warning": ($warning, #ba8b00),
+	"danger": ($danger, #a71d2a),
+	"info": ($info, #0f6674),
+	"default": ($default, #298e85),
+	"red": ($red, #b71c1c),
+	"pink": ($pink, #880e4f),
+	"purple": ($purple, #4a148c),
+	"deep-purple": ($deep-purple, #311b92),
+	"indigo": ($indigo, #1a237e),
+	"blue": ($blue, #0d47a1),
+	"light-blue": ($light-blue, #01579b),
+	"cyan": ($cyan, #006064),
+	"teal": ($teal, #004d40),
+	"green": ($green, #1b5e20),
+	"light-green": ($light-green, #33691e),
+	"lime": ($lime, #827717),
+	"yellow": ($yellow, #f57f17),
+	"amber": ($amber, #ff6f00),
+	"orange": ($orange, #e65100),
+	"deep-orange": ($deep-orange, #bf360c),
+	"brown": ($brown, #3e2723),
+	"grey": ($grey, #424242),
+	"blue-grey": ($blue-grey, #263238),
+	"dark": ($dark, #000),
+	"light": (#f7f7f7, #a4a4a4),
+	"black": ($black, #000)
+);
+
+$inno-md-colors: map-merge((
+	"red": (
+		"lighten-1": #ffebee,
+		"lighten-2": #ffcdd2,
+		"lighten-3": #ef9a9a,
+		"lighten-4": #e57373,
+		"lighten-5": #ef5350,
+		"default": $red,
+		"darken-1": #e53935,
+		"darken-2": #d32f2f,
+		"darken-3": #c62828,
+		"darken-4": #b71c1c,
+		"a-100": #ff8a80,
+		"a-200": #ff5252,
+		"a-400": #ff1744,
+		"a-700": #d50000
+	),
+	"pink": (
+		"lighten-1": #fce4ec,
+		"lighten-2": #f8bbd0,
+		"lighten-3": #f48fb1,
+		"lighten-4": #f06292,
+		"lighten-5": #ec407a,
+		"default": #e91e63,
+		"darken-1": #d81b60,
+		"darken-2": #c2185b,
+		"darken-3": #ad1457,
+		"darken-4": #880e4f,
+		"a-100": #ff80ab,
+		"a-200": #ff4081,
+		"a-400": #f50057,
+		"a-700": #c51162
+	),
+	"purple": (
+		"lighten-1": #f3e5f5,
+		"lighten-2": #e1bee7,
+		"lighten-3": #ce93d8,
+		"lighten-4": #ba68c8,
+		"lighten-5": #ab47bc,
+		"default": #9c27b0,
+		"darken-1": #8e24aa,
+		"darken-2": #7b1fa2,
+		"darken-3": #6a1b9a,
+		"darken-4": #4a148c,
+		"a-100": #ea80fc,
+		"a-200": #e040fb,
+		"a-400": #d500f9,
+		"a-700": #aa00ff
+	),
+	"deep-purple": (
+		"lighten-1": #ede7f6,
+		"lighten-2": #d1c4e9,
+		"lighten-3": #b39ddb,
+		"lighten-4": #9575cd,
+		"lighten-5": #7e57c2,
+		"default": #673ab7,
+		"darken-1": #5e35b1,
+		"darken-2": #512da8,
+		"darken-3": #4527a0,
+		"darken-4": #311b92,
+		"a-100": #b388ff,
+		"a-200": #7c4dff,
+		"a-400": #651fff,
+		"a-700": #6200ea
+	),
+	"indigo": (
+		"lighten-1": #e8eaf6,
+		"lighten-2": #c5cae9,
+		"lighten-3": #9fa8da,
+		"lighten-4": #7986cb,
+		"lighten-5": #5c6bc0,
+		"default": #3f51b5,
+		"darken-1": #3949ab,
+		"darken-2": #303f9f,
+		"darken-3": #283593,
+		"darken-4": #1a237e,
+		"a-100": #8c9eff,
+		"a-200": #536dfe,
+		"a-400": #3d5afe,
+		"a-700": #304ffe
+	),
+	"blue": (
+		"lighten-1": #e3f2fd,
+		"lighten-2": #bbdefb,
+		"lighten-3": #90caf9,
+		"lighten-4": #64b5f6,
+		"lighten-5": #42a5f5,
+		"default": #2196f3,
+		"darken-1": #1e88e5,
+		"darken-2": #1976d2,
+		"darken-3": #1565c0,
+		"darken-4": #0d47a1,
+		"a-100": #82b1ff,
+		"a-200": #448aff,
+		"a-400": #2979ff,
+		"a-700": #2962ff
+	),
+	"light-blue": (
+		"lighten-1": #e1f5fe,
+		"lighten-2": #b3e5fc,
+		"lighten-3": #81d4fa,
+		"lighten-4": #4fc3f7,
+		"lighten-5": #29b6f6,
+		"default": #03a9f4,
+		"darken-1": #039be5,
+		"darken-2": #0288d1,
+		"darken-3": #0277bd,
+		"darken-4": #01579b,
+		"a-100": #80d8ff,
+		"a-200": #40c4ff,
+		"a-400": #00b0ff,
+		"a-700": #0091ea
+	),
+	"cyan": (
+		"lighten-1": #e0f7fa,
+		"lighten-2": #b2ebf2,
+		"lighten-3": #80deea,
+		"lighten-4": #4dd0e1,
+		"lighten-5": #26c6da,
+		"default": #00bcd4,
+		"darken-1": #00acc1,
+		"darken-2": #0097a7,
+		"darken-3": #00838f,
+		"darken-4": #006064,
+		"a-100": #84ffff,
+		"a-200": #18ffff,
+		"a-400": #00e5ff,
+		"a-700": #00b8d4
+	),
+	"teal": (
+		"lighten-1": #e0f2f1,
+		"lighten-2": #b2dfdb,
+		"lighten-3": #80cbc4,
+		"lighten-4": #4db6ac,
+		"lighten-5": #26a69a,
+		"default": #009688,
+		"darken-1": #00897b,
+		"darken-2": #00796b,
+		"darken-3": #00695c,
+		"darken-4": #004d40,
+		"a-100": #a7ffeb,
+		"a-200": #64ffda,
+		"a-400": #1de9b6,
+		"a-700": #00bfa5
+	),
+	"green": (
+		"lighten-1": #e8f5e9,
+		"lighten-2": #c8e6c9,
+		"lighten-3": #a5d6a7,
+		"lighten-4": #81c784,
+		"lighten-5": #66bb6a,
+		"default": #4caf50,
+		"darken-1": #43a047,
+		"darken-2": #388e3c,
+		"darken-3": #2e7d32,
+		"darken-4": #1b5e20,
+		"a-100": #b9f6ca,
+		"a-200": #69f0ae,
+		"a-400": #00e676,
+		"a-700": #00c853
+	),
+	"light-green": (
+		"lighten-1": #f1f8e9,
+		"lighten-2": #dcedc8,
+		"lighten-3": #c5e1a5,
+		"lighten-4": #aed581,
+		"lighten-5": #9ccc65,
+		"default": #8bc34a,
+		"darken-1": #7cb342,
+		"darken-2": #689f38,
+		"darken-3": #558b2f,
+		"darken-4": #33691e,
+		"a-100": #ccff90,
+		"a-200": #b2ff59,
+		"a-400": #76ff03,
+		"a-700": #64dd17
+	),
+	"lime": (
+		"lighten-1": #f9fbe7,
+		"lighten-2": #f0f4c3,
+		"lighten-3": #e6ee9c,
+		"lighten-4": #dce775,
+		"lighten-5": #d4e157,
+		"default": #cddc39,
+		"darken-1": #c0ca33,
+		"darken-2": #afb42b,
+		"darken-3": #9e9d24,
+		"darken-4": #827717,
+		"a-100": #f4ff81,
+		"a-200": #eeff41,
+		"a-400": #c6ff00,
+		"a-700": #aeea00
+	),
+	"yellow": (
+		"lighten-1": #fffde7,
+		"lighten-2": #fff9c4,
+		"lighten-3": #fff59d,
+		"lighten-4": #fff176,
+		"lighten-5": #ffee58,
+		"default": #ffeb3b,
+		"darken-1": #fdd835,
+		"darken-2": #fbc02d,
+		"darken-3": #f9a825,
+		"darken-4": #f57f17,
+		"a-100": #ffff8d,
+		"a-200": #ffff00,
+		"a-400": #ffea00,
+		"a-700": #ffd600
+	),
+	"amber": (
+		"lighten-1": #fff8e1,
+		"lighten-2": #ffecb3,
+		"lighten-3": #ffe082,
+		"lighten-4": #ffd54f,
+		"lighten-5": #ffca28,
+		"default": #ffc107,
+		"darken-1": #ffb300,
+		"darken-2": #ffa000,
+		"darken-3": #ff8f00,
+		"darken-4": #ff6f00,
+		"a-100": #ffe57f,
+		"a-200": #ffd740,
+		"a-400": #ffc400,
+		"a-700": #ffab00
+	),
+	"orange": (
+		"lighten-1": #fff3e0,
+		"lighten-2": #ffe0b2,
+		"lighten-3": #ffcc80,
+		"lighten-4": #ffb74d,
+		"lighten-5": #ffa726,
+		"default": #ff9800,
+		"darken-1": #fb8c00,
+		"darken-2": #f57c00,
+		"darken-3": #ef6c00,
+		"darken-4": #e65100,
+		"a-100": #ffd180,
+		"a-200": #ffab40,
+		"a-400": #ff9100,
+		"a-700": #ff6d00
+	),
+	"deep-orange": (
+		"lighten-1": #fbe9e7,
+		"lighten-2": #ffccbc,
+		"lighten-3": #ffab91,
+		"lighten-4": #ff8a65,
+		"lighten-5": #ff7043,
+		"default": #ff5722,
+		"darken-1": #f4511e,
+		"darken-2": #e64a19,
+		"darken-3": #d84315,
+		"darken-4": #bf360c,
+		"a-100": #ff9e80,
+		"a-200": #ff6e40,
+		"a-400": #ff3d00,
+		"a-700": #dd2c00
+	),
+	"brown": (
+		"lighten-1": $brown-lighten-1,
+		"lighten-2": $brown-lighten-2,
+		"lighten-3": $brown-lighten-3,
+		"lighten-4": $brown-lighten-4,
+		"lighten-5": $brown-lighten-5,
+		"default": $brown,
+		"darken-1": $brown-darken-1,
+		"darken-2": $brown-darken-2,
+		"darken-3": $brown-darken-3,
+		"darken-4": $brown-darken-4
+	),
+	"grey": (
+		"lighten-1": $grey-lighten-1,
+		"lighten-2": $grey-lighten-2,
+		"lighten-3": $grey-lighten-3,
+		"lighten-4": $grey-lighten-4,
+		"lighten-5": $grey-lighten-5,
+		"default": $grey,
+		"darken-1": $grey-darken-1,
+		"darken-2": $grey-darken-2,
+		"darken-3": $grey-darken-3,
+		"darken-4": $grey-darken-4
+	),
+	"blue-grey": (
+		"lighten-1": $blue-grey-lighten-1,
+		"lighten-2": $blue-grey-lighten-2,
+		"lighten-3": $blue-grey-lighten-3,
+		"lighten-4": $blue-grey-lighten-4,
+		"lighten-5": $blue-grey-lighten-5,
+		"default": $blue-grey,
+		"darken-1": $blue-grey-darken-1,
+		"darken-2": $blue-grey-darken-2,
+		"darken-3": $blue-grey-darken-3,
+		"darken-4": $blue-grey-darken-4
+	)
+), ());

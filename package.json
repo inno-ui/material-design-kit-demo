@@ -1,0 +1,41 @@
+{
+	"name": "material-design-kit-demo",
+	"version": "1.0.0",
+	"description": "UI/UX library that helps you develop beautiful web applications, faster.",
+	"main": "index.html",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/inno-ui/material-design-kit-demo.git"
+	},
+	"keywords": [
+		"bootstrap 4 kit",
+		"bootstrap material design kit",
+		"css html javascript",
+		"html css material kit",
+		"inno-ui",
+		"frontend material kit",
+		"material design kit",
+		"ui",
+		"user interface",
+		"ux",
+		"user experience",
+		"web design",
+		"web kit"
+	],
+	"author": "Innovision SRL (https://www.inno-ui.com)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/inno-ui/material-design-kit-demo/issues"
+	},
+	"homepage": "https://github.com/inno-ui/material-design-kit-demo#readme",
+	"devDependencies": {
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^7.0.1",
+		"gulp-open": "^3.0.1",
+		"gulp-sass": "^4.1.0",
+		"gulp-sourcemaps": "^3.0.0"
+	}
+}

@@ -1,0 +1,15 @@
+@each $name, $color_list in $alert-colors {
+	$bg-color: nth($color_list, 1);
+	$text-color: nth($color_list, 2);
+	.alert {
+		&.alert-#{$name} {
+			background-color: $bg-color;
+			color: $text-color;
+		}
+		&.alert-#{$name} a,
+		&.alert-#{$name} .alert-link,
+		&.alert-#{$name} .close {
+			color: $text-color;
+		}
+	}
+}

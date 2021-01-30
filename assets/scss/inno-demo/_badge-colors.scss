@@ -1,0 +1,15 @@
+
+@each $name, $color_list in $badge-colors {
+    $bg-color: nth($color_list, 1);
+    $bg-hover-color: nth($color_list, 2);
+    $text-color: nth($color_list, 3);
+    .badge.badge-#{$name} {
+        color: $text-color !important;
+        background-color: $bg-color;
+    }
+    a.badge-#{$name}:hover,
+    a.badge-#{$name}:focus {
+        color: $text-color;
+        background-color: $bg-hover-color;
+    }
+}

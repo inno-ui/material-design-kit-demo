@@ -1,0 +1,9 @@
+@each $name, $color-variations in $inno-md-colors {
+	@each $color-name, $color in $color-variations {
+		@if (str-index($color-name, 'a-')) {
+			.#{$name}.#{$color-name} {
+				background-color: $color !important;
+			}
+		}
+	}
+}
