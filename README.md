@@ -16,7 +16,7 @@ gulp start-app
 
 ## Pro Version
 
-Would you like to take advantage of the full library of components? Then, please access [Pro Individual](#https://inno-ui.com/product/inno-pro-individual) or [Pro Team](#https://inno-ui.com/product/inno-pro-team) versions and start developing amazing products.
+Would you like to take advantage of the full library of components? Then, please access [Pro Individual](https://inno-ui.com/product/inno-pro-individual) or [Pro Team](https://inno-ui.com/product/inno-pro-team) versions and start developing amazing products.
 
 ## License
 
