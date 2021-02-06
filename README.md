@@ -1,4 +1,4 @@
-# Inno-ui Bootstrap 4 Material Design Kit - Demo 
+# InnoUi Material Design Kit for Bootstrap 4 - Demo Version
 
 Bootstrap 4 UI Kit based on Google’s Material Design
 
