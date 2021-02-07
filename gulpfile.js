@@ -19,7 +19,7 @@ var filePaths = {
 	SCSS_COMPILED: './assets/scss/inno-ui-kit.scss'
 };
 
-gulp.task('compile-scss', function () {
+gulp.task('compile-scss', () => {
 	return gulp.src(filePaths.SCSS_COMPILED)
 	.pipe(sourcemaps.init())
 	.pipe(sass().on('error', sass.logError))
@@ -35,12 +35,12 @@ gulp.task('minify-css', () => {
 	.pipe(gulp.dest(filePaths.CSS));
 });
 
-gulp.task('watch-scss', function() {
-	gulp.watch(filePaths.SCSS, gulp.series('compile-scss', 'minify-css'));
+gulp.task('watch-scss', () => {
+	return gulp.watch(filePaths.SCSS, gulp.series('compile-scss', 'minify-css'));
 });
 
-gulp.task('open-app', function() {
-	gulp.src(filePaths.ENTRY_POINT)
+gulp.task('open-app', () => {
+	return gulp.src(filePaths.ENTRY_POINT)
 	.pipe(open());
 });
 

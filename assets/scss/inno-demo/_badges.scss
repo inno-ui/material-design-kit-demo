@@ -1,0 +1,16 @@
+.badge {
+	-webkit-border-radius: 0.145rem;
+	border-radius: 0.145rem;
+	font-size: 90%;
+	font-weight: 500;
+	padding: 0.25em 0.4em;
+	-webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.18), 0 2px 7px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.18), 0 2px 7px rgba(0, 0, 0, 0.4);
+}
+
+.badge-pill {
+	padding-right: 0.75em;
+	padding-left: 0.75em;
+	-webkit-border-radius: 10rem;
+	border-radius: 10rem;
+}

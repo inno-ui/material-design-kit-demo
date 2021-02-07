@@ -1,5 +1,4 @@
-// DEFINE VARIABLES
-
+// DEFAULT COLORS
 $primary: #4285f4;
 $secondary: #9e6db1;
 $success: #0f9d58;
@@ -8,23 +7,270 @@ $danger: #db4437;
 $info: #43bedd;
 $default: #bce6e5;
 
+$black: #000;
+$white: #fff;
+$inno: #00838f;
+$dark: #424242;
+$light: #e0e0e0;
+
+// MATERIAL DESIGN COLORS
+// RED
+$red-lighten-1: #ffebee;
+$red-lighten-2: #ffcdd2;
+$red-lighten-3: #ef9a9a;
+$red-lighten-4: #e57373;
+$red-lighten-5: #ef5350;
 $red: #f44336;
+$red-darken-1: #e53935;
+$red-darken-2: #d32f2f;
+$red-darken-3: #c62828;
+$red-darken-4: #b71c1c;
+$red-a-100: #ff8a80;
+$red-a-200: #ff5252;
+$red-a-400: #ff1744;
+$red-a-700: #d50000;
+
+// PINK
+$pink-lighten-1: #fce4ec;
+$pink-lighten-2: #f8bbd0;
+$pink-lighten-3: #f48fb1;
+$pink-lighten-4: #f06292;
+$pink-lighten-5: #ec407a;
 $pink: #e91e63;
+$pink-darken-1: #d81b60;
+$pink-darken-2: #c2185b;
+$pink-darken-3: #ad1457;
+$pink-darken-4: #880e4f;
+$pink-a-100: #ff80ab;
+$pink-a-200: #ff4081;
+$pink-a-400: #f50057;
+$pink-a-700: #c51162;
+
+// PURPLE
+$purple-lighten-1: #f3e5f5;
+$purple-lighten-2: #e1bee7;
+$purple-lighten-3: #ce93d8;
+$purple-lighten-4: #ba68c8;
+$purple-lighten-5: #ab47bc;
 $purple: #9c27b0;
+$purple-darken-1: #8e24aa;
+$purple-darken-2: #7b1fa2;
+$purple-darken-3: #6a1b9a;
+$purple-darken-4: #4a148c;
+$purple-a-100: #ea80fc;
+$purple-a-200: #e040fb;
+$purple-a-400: #d500f9;
+$purple-a-700: #aa00ff;
+
+// DEEP PURPLE
+$deep-purple-lighten-1: #ede7f6;
+$deep-purple-lighten-2: #d1c4e9;
+$deep-purple-lighten-3: #b39ddb;
+$deep-purple-lighten-4: #9575cd;
+$deep-purple-lighten-5: #7e57c2;
 $deep-purple: #673ab7;
+$deep-purple-darken-1: #5e35b1;
+$deep-purple-darken-2: #512da8;
+$deep-purple-darken-3: #4527a0;
+$deep-purple-darken-4: #311b92;
+$deep-purple-a-100: #b388ff;
+$deep-purple-a-200: #7c4dff;
+$deep-purple-a-400: #651fff;
+$deep-purple-a-700: #6200ea;
+
+// INDIGO
+$indigo-lighten-1: #e8eaf6;
+$indigo-lighten-2: #c5cae9;
+$indigo-lighten-3: #9fa8da;
+$indigo-lighten-4: #7986cb;
+$indigo-lighten-5: #5c6bc0;
 $indigo: #3f51b5;
+$indigo-darken-1: #3949ab;
+$indigo-darken-2: #303f9f;
+$indigo-darken-3: #283593;
+$indigo-darken-4: #1a237e;
+$indigo-a-100: #8c9eff;
+$indigo-a-200: #536dfe;
+$indigo-a-400: #3d5afe;
+$indigo-a-700: #304ffe;
+
+// BLUE
+$blue-lighten-1: #e3f2fd;
+$blue-lighten-2: #bbdefb;
+$blue-lighten-3: #90caf9;
+$blue-lighten-4: #64b5f6;
+$blue-lighten-5: #42a5f5;
 $blue: #2196f3;
+$blue-darken-1: #1e88e5;
+$blue-darken-2: #1976d2;
+$blue-darken-3: #1565c0;
+$blue-darken-4: #0d47a1;
+$blue-a-100: #82b1ff;
+$blue-a-200: #448aff;
+$blue-a-400: #2979ff;
+$blue-a-700: #2962ff;
+
+// LIGHT BLUE
+$light-blue-lighten-1: #e1f5fe;
+$light-blue-lighten-2: #b3e5fc;
+$light-blue-lighten-3: #81d4fa;
+$light-blue-lighten-4: #4fc3f7;
+$light-blue-lighten-5: #29b6f6;
 $light-blue: #03a9f4;
+$light-blue-darken-1: #039be5;
+$light-blue-darken-2: #0288d1;
+$light-blue-darken-3: #0277bd;
+$light-blue-darken-4: #01579b;
+$light-blue-a-100: #80d8ff;
+$light-blue-a-200: #40c4ff;
+$light-blue-a-400: #00b0ff;
+$light-blue-a-700: #0091ea;
+
+// CYAN
+$cyan-lighten-1: #e0f7fa;
+$cyan-lighten-2: #b2ebf2;
+$cyan-lighten-3: #80deea;
+$cyan-lighten-4: #4dd0e1;
+$cyan-lighten-5: #26c6da;
 $cyan: #00bcd4;
+$cyan-darken-1: #00acc1;
+$cyan-darken-2: #0097a7;
+$cyan-darken-3: #00838f;
+$cyan-darken-4: #006064;
+$cyan-a-100: #84ffff;
+$cyan-a-200: #18ffff;
+$cyan-a-400: #00e5ff;
+$cyan-a-700: #00b8d4;
+
+// TEAL
+$teal-lighten-1: #e0f2f1;
+$teal-lighten-2: #b2dfdb;
+$teal-lighten-3: #80cbc4;
+$teal-lighten-4: #4db6ac;
+$teal-lighten-5: #26a69a;
 $teal: #009688;
+$teal-darken-1: #00897b;
+$teal-darken-2: #00796b;
+$teal-darken-3: #00695c;
+$teal-darken-4: #004d40;
+$teal-a-100: #a7ffeb;
+$teal-a-200: #64ffda;
+$teal-a-400: #1de9b6;
+$teal-a-700: #00bfa5;
+
+// GREEN
+$green-lighten-1: #e8f5e9;
+$green-lighten-2: #c8e6c9;
+$green-lighten-3: #a5d6a7;
+$green-lighten-4: #81c784;
+$green-lighten-5: #66bb6a;
 $green: #4caf50;
+$green-darken-1: #43a047;
+$green-darken-2: #388e3c;
+$green-darken-3: #2e7d32;
+$green-darken-4: #1b5e20;
+$green-a-100: #b9f6ca;
+$green-a-200: #69f0ae;
+$green-a-400: #00e676;
+$green-a-700: #00c853;
+
+// LIGHT GREEN
+$light-green-lighten-1: #f1f8e9;
+$light-green-lighten-2: #dcedc8;
+$light-green-lighten-3: #c5e1a5;
+$light-green-lighten-4: #aed581;
+$light-green-lighten-5: #9ccc65;
 $light-green: #8bc34a;
+$light-green-darken-1: #7cb342;
+$light-green-darken-2: #689f38;
+$light-green-darken-3: #558b2f;
+$light-green-darken-4: #33691e;
+$light-green-a-100: #ccff90;
+$light-green-a-200: #b2ff59;
+$light-green-a-400: #76ff03;
+$light-green-a-700: #64dd17;
+
+// LIME
+$lime-lighten-1: #f9fbe7;
+$lime-lighten-2: #f0f4c3;
+$lime-lighten-3: #e6ee9c;
+$lime-lighten-4: #dce775;
+$lime-lighten-5: #d4e157;
 $lime: #cddc39;
+$lime-darken-1: #c0ca33;
+$lime-darken-2: #afb42b;
+$lime-darken-3: #9e9d24;
+$lime-darken-4: #827717;
+$lime-a-100: #f4ff81;
+$lime-a-200: #eeff41;
+$lime-a-400: #c6ff00;
+$lime-a-700: #aeea00;
+
+// YELLOW
+$yellow-lighten-1: #fffde7;
+$yellow-lighten-2: #fff9c4;
+$yellow-lighten-3: #fff59d;
+$yellow-lighten-4: #fff176;
+$yellow-lighten-5: #ffee58;
 $yellow: #ffeb3b;
+$yellow-darken-1: #fdd835;
+$yellow-darken-2: #fbc02d;
+$yellow-darken-3: #f9a825;
+$yellow-darken-4: #f57f17;
+$yellow-a-100: #ffff8d;
+$yellow-a-200: #ffff00;
+$yellow-a-400: #ffea00;
+$yellow-a-700: #ffd600;
+
+// AMBER
+$amber-lighten-1: #fff8e1;
+$amber-lighten-2: #ffecb3;
+$amber-lighten-3: #ffe082;
+$amber-lighten-4: #ffd54f;
+$amber-lighten-5: #ffca28;
 $amber: #ffc107;
+$amber-darken-1: #ffb300;
+$amber-darken-2: #ffa000;
+$amber-darken-3: #ff8f00;
+$amber-darken-4: #ff6f00;
+$amber-a-100: #ffe57f;
+$amber-a-200: #ffd740;
+$amber-a-400: #ffc400;
+$amber-a-700: #ffab00;
+
+// ORANGE
+$orange-lighten-1: #fff3e0;
+$orange-lighten-2: #ffe0b2;
+$orange-lighten-3: #ffcc80;
+$orange-lighten-4: #ffb74d;
+$orange-lighten-5: #ffa726;
 $orange: #ff9800;
+$orange-darken-1: #fb8c00;
+$orange-darken-2: #f57c00;
+$orange-darken-3: #ef6c00;
+$orange-darken-4: #e65100;
+$orange-a-100: #ffd180;
+$orange-a-200: #ffab40;
+$orange-a-400: #ff9100;
+$orange-a-700: #ff6d00;
+
+// DEEP ORANGE
+$deep-orange-lighten-1: #fbe9e7;
+$deep-orange-lighten-2: #ffccbc;
+$deep-orange-lighten-3: #ffab91;
+$deep-orange-lighten-4: #ff8a65;
+$deep-orange-lighten-5: #ff7043;
 $deep-orange: #ff5722;
-// brown
+$deep-orange-darken-1: #f4511e;
+$deep-orange-darken-2: #e64a19;
+$deep-orange-darken-3: #d84315;
+$deep-orange-darken-4: #bf360c;
+$deep-orange-a-100: #ff9e80;
+$deep-orange-a-200: #ff6e40;
+$deep-orange-a-400: #ff3d00;
+$deep-orange-a-700: #dd2c00;
+
+// BROWN
 $brown-lighten-1: #efebe9;
 $brown-lighten-2: #d7ccc8;
 $brown-lighten-3: #bcaaa4;
@@ -35,7 +281,8 @@ $brown-darken-1: #6d4c41;
 $brown-darken-2: #5d4037;
 $brown-darken-3: #4e342e;
 $brown-darken-4: #3e2723;
-// grey
+
+// GREY
 $grey-lighten-1: #fafafa;
 $grey-lighten-2: #f5f5f5;
 $grey-lighten-3: #eee;
@@ -46,7 +293,8 @@ $grey-darken-1: #757575;
 $grey-darken-2: #616161;
 $grey-darken-3: #424242;
 $grey-darken-4: #212121;
-// blue grey
+
+// BLUE GREY
 $blue-grey-lighten-1: #eceff1;
 $blue-grey-lighten-2: #cfd8dc;
 $blue-grey-lighten-3: #b0bec5;
@@ -58,12 +306,7 @@ $blue-grey-darken-2: #455a64;
 $blue-grey-darken-3: #37474f;
 $blue-grey-darken-4: #263238;
 
-$inno: #00838f;
-$dark: #424242;
-$black: #000;
-$light: #e0e0e0;
-$white: #fff;
-
+// BRANDS COLORS
 $airbnb: #fd5c63;
 $alipay: #0e9dec;
 $amazon: #ff9900;
@@ -134,18 +377,302 @@ $yahoo: #410093;
 $yandex: #ff0000;
 $youtube: #ff0000;
 
-$inno-gradient-colors: (
-	"aqua": (#e0f2f1, #00e5ff),
-	"blue": (#3949ab, #4fc3f7),
-	"grey": (#cfd8dc, #546e7a),
-	"instagram": (#d500f9 ,#ffa000),
-	"pink": (#ff5252, #f48fb1),
-	"rose": (#ea80fc, #fce4ec),
-	"orange": (#fc4a1a, #f7b733),
-	"purple": (#6a3093, #a044ff),
-	"mojito": (#1d976c, #93f9b9),
-	"ukraine": (#004ff9, #fff94c)
-);
+// MAPS
+
+$inno-md-colors: map-merge((
+	"red": (
+		"lighten-1": $red-lighten-1,
+		"lighten-2": $red-lighten-2,
+		"lighten-3": $red-lighten-3,
+		"lighten-4": $red-lighten-4,
+		"lighten-5": $red-lighten-5,
+		"default": $red,
+		"darken-1": $red-darken-1,
+		"darken-2": $red-darken-2,
+		"darken-3": $red-darken-3,
+		"darken-4": $red-darken-4,
+		"a-100": $red-a-100,
+		"a-200": $red-a-200,
+		"a-400": $red-a-400,
+		"a-700": $red-a-700
+	),
+	"pink": (
+		"lighten-1": $pink-lighten-1,
+		"lighten-2": $pink-lighten-2,
+		"lighten-3": $pink-lighten-3,
+		"lighten-4": $pink-lighten-4,
+		"lighten-5": $pink-lighten-5,
+		"default": $pink,
+		"darken-1": $pink-darken-1,
+		"darken-2": $pink-darken-2,
+		"darken-3": $pink-darken-3,
+		"darken-4": $pink-darken-4,
+		"a-100": $pink-a-100,
+		"a-200": $pink-a-200,
+		"a-400": $pink-a-400,
+		"a-700": $pink-a-700
+	),
+	"purple": (
+		"lighten-1": $purple-lighten-1,
+		"lighten-2": $purple-lighten-2,
+		"lighten-3": $purple-lighten-3,
+		"lighten-4": $purple-lighten-4,
+		"lighten-5": $purple-lighten-5,
+		"default": $purple,
+		"darken-1": $purple-darken-1,
+		"darken-2": $purple-darken-2,
+		"darken-3": $purple-darken-3,
+		"darken-4": $purple-darken-4,
+		"a-100": $purple-a-100,
+		"a-200": $purple-a-200,
+		"a-400": $purple-a-400,
+		"a-700": $purple-a-700
+	),
+	"deep-purple": (
+		"lighten-1": $deep-purple-lighten-1,
+		"lighten-2": $deep-purple-lighten-2,
+		"lighten-3": $deep-purple-lighten-3,
+		"lighten-4": $deep-purple-lighten-4,
+		"lighten-5": $deep-purple-lighten-5,
+		"default": $deep-purple,
+		"darken-1": $deep-purple-darken-1,
+		"darken-2": $deep-purple-darken-2,
+		"darken-3": $deep-purple-darken-3,
+		"darken-4": $deep-purple-darken-4,
+		"a-100": $deep-purple-a-100,
+		"a-200": $deep-purple-a-200,
+		"a-400": $deep-purple-a-400,
+		"a-700": $deep-purple-a-700
+	),
+	"indigo": (
+		"lighten-1": $indigo-lighten-1,
+		"lighten-2": $indigo-lighten-2,
+		"lighten-3": $indigo-lighten-3,
+		"lighten-4": $indigo-lighten-4,
+		"lighten-5": $indigo-lighten-5,
+		"default": $indigo,
+		"darken-1": $indigo-darken-1,
+		"darken-2": $indigo-darken-2,
+		"darken-3": $indigo-darken-3,
+		"darken-4": $indigo-darken-4,
+		"a-100": $indigo-a-100,
+		"a-200": $indigo-a-200,
+		"a-400": $indigo-a-400,
+		"a-700": $indigo-a-700
+	),
+	"blue": (
+		"lighten-1": $blue-lighten-1,
+		"lighten-2": $blue-lighten-2,
+		"lighten-3": $blue-lighten-3,
+		"lighten-4": $blue-lighten-4,
+		"lighten-5": $blue-lighten-5,
+		"default": $blue,
+		"darken-1": $blue-darken-1,
+		"darken-2": $blue-darken-2,
+		"darken-3": $blue-darken-3,
+		"darken-4": $blue-darken-4,
+		"a-100": $blue-a-100,
+		"a-200": $blue-a-200,
+		"a-400": $blue-a-400,
+		"a-700": $blue-a-700
+	),
+	"light-blue": (
+		"lighten-1": $light-blue-lighten-1,
+		"lighten-2": $light-blue-lighten-2,
+		"lighten-3": $light-blue-lighten-3,
+		"lighten-4": $light-blue-lighten-4,
+		"lighten-5": $light-blue-lighten-5,
+		"default": $light-blue,
+		"darken-1": $light-blue-darken-1,
+		"darken-2": $light-blue-darken-2,
+		"darken-3": $light-blue-darken-3,
+		"darken-4": $light-blue-darken-4,
+		"a-100": $light-blue-a-100,
+		"a-200": $light-blue-a-200,
+		"a-400": $light-blue-a-400,
+		"a-700": $light-blue-a-700
+	),
+	"cyan": (
+		"lighten-1": $cyan-lighten-1,
+		"lighten-2": $cyan-lighten-2,
+		"lighten-3": $cyan-lighten-3,
+		"lighten-4": $cyan-lighten-4,
+		"lighten-5": $cyan-lighten-5,
+		"default": $cyan,
+		"darken-1": $cyan-darken-1,
+		"darken-2": $cyan-darken-2,
+		"darken-3": $cyan-darken-3,
+		"darken-4": $cyan-darken-4,
+		"a-100": $cyan-a-100,
+		"a-200": $cyan-a-200,
+		"a-400": $cyan-a-400,
+		"a-700": $cyan-a-700
+	),
+	"teal": (
+		"lighten-1": $teal-lighten-1,
+		"lighten-2": $teal-lighten-2,
+		"lighten-3": $teal-lighten-3,
+		"lighten-4": $teal-lighten-4,
+		"lighten-5": $teal-lighten-5,
+		"default": $teal,
+		"darken-1": $teal-darken-1,
+		"darken-2": $teal-darken-2,
+		"darken-3": $teal-darken-3,
+		"darken-4": $teal-darken-4,
+		"a-100": $teal-a-100,
+		"a-200": $teal-a-200,
+		"a-400": $teal-a-400,
+		"a-700": $teal-a-700
+	),
+	"green": (
+		"lighten-1": $green-lighten-1,
+		"lighten-2": $green-lighten-2,
+		"lighten-3": $green-lighten-3,
+		"lighten-4": $green-lighten-4,
+		"lighten-5": $green-lighten-5,
+		"default": $green,
+		"darken-1": $green-darken-1,
+		"darken-2": $green-darken-2,
+		"darken-3": $green-darken-3,
+		"darken-4": $green-darken-4,
+		"a-100": $green-a-100,
+		"a-200": $green-a-200,
+		"a-400": $green-a-400,
+		"a-700": $green-a-700
+	),
+	"light-green": (
+		"lighten-1": $light-green-lighten-1,
+		"lighten-2": $light-green-lighten-2,
+		"lighten-3": $light-green-lighten-3,
+		"lighten-4": $light-green-lighten-4,
+		"lighten-5": $light-green-lighten-5,
+		"default": $light-green,
+		"darken-1": $light-green-darken-1,
+		"darken-2": $light-green-darken-2,
+		"darken-3": $light-green-darken-3,
+		"darken-4": $light-green-darken-4,
+		"a-100": $light-green-a-100,
+		"a-200": $light-green-a-200,
+		"a-400": $light-green-a-400,
+		"a-700": $light-green-a-700,
+	),
+	"lime": (
+		"lighten-1": $lime-lighten-1,
+		"lighten-2": $lime-lighten-2,
+		"lighten-3": $lime-lighten-3,
+		"lighten-4": $lime-lighten-4,
+		"lighten-5": $lime-lighten-5,
+		"default": $lime,
+		"darken-1": $lime-darken-1,
+		"darken-2": $lime-darken-2,
+		"darken-3": $lime-darken-3,
+		"darken-4": $lime-darken-4,
+		"a-100": $lime-a-100,
+		"a-200": $lime-a-200,
+		"a-400": $lime-a-400,
+		"a-700": $lime-a-700
+	),
+	"yellow": (
+		"lighten-1": $yellow-lighten-1,
+		"lighten-2": $yellow-lighten-2,
+		"lighten-3": $yellow-lighten-3,
+		"lighten-4": $yellow-lighten-4,
+		"lighten-5": $yellow-lighten-5,
+		"default": $yellow,
+		"darken-1": $yellow-darken-1,
+		"darken-2": $yellow-darken-2,
+		"darken-3": $yellow-darken-3,
+		"darken-4": $yellow-darken-4,
+		"a-100": $yellow-a-100,
+		"a-200": $yellow-a-200,
+		"a-400": $yellow-a-400,
+		"a-700": $yellow-a-700
+	),
+	"amber": (
+		"lighten-1": $amber-lighten-1,
+		"lighten-2": $amber-lighten-2,
+		"lighten-3": $amber-lighten-3,
+		"lighten-4": $amber-lighten-4,
+		"lighten-5": $amber-lighten-5,
+		"default": $amber,
+		"darken-1": $amber-darken-1,
+		"darken-2": $amber-darken-2,
+		"darken-3": $amber-darken-3,
+		"darken-4": $amber-darken-4,
+		"a-100": $amber-a-100,
+		"a-200": $amber-a-200,
+		"a-400": $amber-a-400,
+		"a-700": $amber-a-700
+	),
+	"orange": (
+		"lighten-1": $orange-lighten-1,
+		"lighten-2": $orange-lighten-2,
+		"lighten-3": $orange-lighten-3,
+		"lighten-4": $orange-lighten-4,
+		"lighten-5": $orange-lighten-5,
+		"default": $orange,
+		"darken-1": $orange-darken-1,
+		"darken-2": $orange-darken-2,
+		"darken-3": $orange-darken-3,
+		"darken-4": $orange-darken-4,
+		"a-100": $orange-a-100,
+		"a-200": $orange-a-200,
+		"a-400": $orange-a-400,
+		"a-700": $orange-a-700
+	),
+	"deep-orange": (
+		"lighten-1": $deep-orange-lighten-1,
+		"lighten-2": $deep-orange-lighten-2,
+		"lighten-3": $deep-orange-lighten-3,
+		"lighten-4": $deep-orange-lighten-4,
+		"lighten-5": $deep-orange-lighten-5,
+		"default": $deep-orange,
+		"darken-1": $deep-orange-darken-1,
+		"darken-2": $deep-orange-darken-2,
+		"darken-3": $deep-orange-darken-3,
+		"darken-4": $deep-orange-darken-4,
+		"a-100": $deep-orange-a-100,
+		"a-200": $deep-orange-a-200,
+		"a-400": $deep-orange-a-400,
+		"a-700": $deep-orange-a-700
+	),
+	"brown": (
+		"lighten-1": $brown-lighten-1,
+		"lighten-2": $brown-lighten-2,
+		"lighten-3": $brown-lighten-3,
+		"lighten-4": $brown-lighten-4,
+		"lighten-5": $brown-lighten-5,
+		"default": $brown,
+		"darken-1": $brown-darken-1,
+		"darken-2": $brown-darken-2,
+		"darken-3": $brown-darken-3,
+		"darken-4": $brown-darken-4
+	),
+	"grey": (
+		"lighten-1": $grey-lighten-1,
+		"lighten-2": $grey-lighten-2,
+		"lighten-3": $grey-lighten-3,
+		"lighten-4": $grey-lighten-4,
+		"lighten-5": $grey-lighten-5,
+		"default": $grey,
+		"darken-1": $grey-darken-1,
+		"darken-2": $grey-darken-2,
+		"darken-3": $grey-darken-3,
+		"darken-4": $grey-darken-4
+	),
+	"blue-grey": (
+		"lighten-1": $blue-grey-lighten-1,
+		"lighten-2": $blue-grey-lighten-2,
+		"lighten-3": $blue-grey-lighten-3,
+		"lighten-4": $blue-grey-lighten-4,
+		"lighten-5": $blue-grey-lighten-5,
+		"default": $blue-grey,
+		"darken-1": $blue-grey-darken-1,
+		"darken-2": $blue-grey-darken-2,
+		"darken-3": $blue-grey-darken-3,
+		"darken-4": $blue-grey-darken-4
+	)
+), ());
 
 $alert-colors: (
 	"primary": ($primary, $white),
@@ -224,564 +751,3 @@ $bg-default-colors: (
 	"dark": ($dark, #000000),
 	"light": ($light, #9e9e9e)
 );
-
-$btn-contain-colors: (
-	"primary": ($primary, #4295ff, #3f74e0, $grey-lighten-1),
-	"secondary": ($secondary, #b994c8, #7a3995, $grey-lighten-1),
-	"success": ($success, #19ac62, #018b4c, $grey-lighten-1),
-	"warning": ($warning, #f4c10b, #f49000, $grey-lighten-1),
-	"danger": ($danger, #ea4e38, #bc352b, $grey-lighten-1),
-	"info": ($info, #61d2eb, #3699af, $grey-lighten-1),
-	"default": ($default, #e4f5f5, #90d7d5, $grey-darken-4),
-	"red": ($red, #ef5350, #e53935, $grey-lighten-1),
-	"pink": ($pink, #f06292, #d81b60, $grey-lighten-1),
-	"purple": ($purple, #ab47bc, #7b1fa2, $grey-lighten-1),
-	"deep-purple": ($deep-purple, #7e57c2, #512da8, $grey-lighten-1),
-	"indigo": ($indigo, #5c6bc0, #303f9f, $grey-lighten-1),
-	"blue": ($blue, #42a5f5, #1976d2, $grey-lighten-1),
-	"light-blue": ($light-blue, #29b6f6, #039be5, $grey-lighten-1),
-	"cyan": ($cyan, #4dd0e1, #00acc1, $grey-lighten-1),
-	"teal": ($teal, #26a69a, #00796b, $grey-lighten-1),
-	"green": ($green, #66bb6a, #388e3c, $grey-lighten-1),
-	"light-green": ($light-green, #9ccc65, #689f38, $grey-lighten-1),
-	"lime": ($lime, #dce775, #afb42b, $grey-lighten-1),
-	"yellow": ($yellow, #ffee58, #fbc02d, $grey-darken-4),
-	"amber": ($amber, #ffca28, #ffa000, $grey-lighten-1),
-	"orange": ($orange, #ffa726, #f57c00, $grey-lighten-1),
-	"deep-orange": ($deep-orange, #ff7043, #d84315, $grey-lighten-1),
-	"brown": ($brown, #8d6e63, #5d4037, $grey-lighten-1),
-	"grey": ($grey, #bdbdbd, #757575, $grey-lighten-1),
-	"blue-grey": ($blue-grey, #78909c, #455a64, $grey-lighten-1),
-	"black": ($black, #262626, $black, $grey-lighten-1),
-	"dark": ($dark, #616161, #212121, $grey-lighten-1),
-	"light": (#f7f7f7, #fbfbfb, #e5e5e5, $grey-darken-4),
-	"white": ($white, $grey-lighten-1, $grey-lighten-2, $grey-darken-4),
-	"inno": ($inno, #00acc1, #006064, $grey-lighten-1),
-	"comment": (#30cfc0, #45d4c6, #1d7c73, $grey-lighten-1),
-	"email": (#4b515d, #565d6b, #1d2025, $grey-lighten-1),
-	"phone": (#5fb422, #6ec42a, #318c0a, $grey-lighten-1)
-);
-
-$btn-outline-colors: (
-	"primary": $primary,
-	"default": $default,
-	"secondary": $secondary,
-	"success": $success,
-	"info": $info,
-	"warning": $warning,
-	"danger": $danger,
-	"red": $red,
-	"pink": $pink,
-	"purple": $purple,
-	"deep-purple": $deep-purple,
-	"indigo": $indigo,
-	"blue": $blue,
-	"light-blue": $light-blue,
-	"cyan": $cyan,
-	"teal": $teal,
-	"green": $green,
-	"light-green": $light-green,
-	"lime": $lime,
-	"yellow": $yellow,
-	"amber": $amber,
-	"orange": $orange,
-	"deep-orange": $deep-orange,
-	"brown": $brown,
-	"grey": $grey,
-	"blue-grey": $blue-grey,
-	"dark": $dark,
-	"black": $black,
-	"inno": $inno
-);
-
-$btn-brand-colors: (
-	"airbnb": ($airbnb, #ef7c83, #e33944, $grey-lighten-1),
-	"alipay": ($alipay, #0dadfb, #0c7ac4, $grey-lighten-1),
-	"amazon": ($amazon, #ffa826, #ef6d00, $grey-lighten-1),
-	"amazon-pay": ($amazon-pay, #516472, #222a30, $grey-lighten-1),
-	"amex": ($amex, #3788cd, #1a4a8a, $grey-lighten-1),
-	"android": ($android, #b0d840, #889927, $grey-lighten-1),
-	"angular": ($angular, #d43c3d, #990608, $grey-lighten-1),
-	"apple": ($apple, #262626, #000, $grey-lighten-1),
-	"atlassian": ($atlassian, #456cd4, #003fb5, $grey-lighten-1),
-	"bitcoin": ($bitcoin, #f2b706, #f18700, $grey-lighten-1),
-	"blogger": ($blogger, #fb8f01, #e65400, $grey-lighten-1),
-	"bootstrap": ($bootstrap, #9c366b, #401433, $grey-lighten-1),
-	"codepen": ($codepen, #262626, #000, $grey-lighten-1),
-	"digital-ocean": ($digital-ocean, #059de3, #005999, $grey-lighten-1),
-	"discover": ($discover, #f07323, #d6551e, $grey-lighten-1),
-	"docker": ($docker, #48c5ee, #008bca, $grey-lighten-1),
-	"dribbble": ($dribbble, #ef699e, #c22968, $grey-lighten-1),
-	"dropbox": ($dropbox, #0091f9, #004eb4, $grey-lighten-1),
-	"ethereum": ($ethereum, #5b5b5c, #1c1c1d, $grey-lighten-1),
-	"fb": ($fb, #5a71a6, #2d4884, $grey-lighten-1),
-	"fb-msg": ($fb-msg, #0092ff, #1271eb, $grey-lighten-1),
-	"free-code-camp": ($free-code-camp, #378616, #024602, $grey-lighten-1),
-	"git": ($git, #fc6f4f, #d44226, $grey-lighten-1),
-	"github": ($github, #515151, #131313, $grey-lighten-1),
-	"gplus": ($gplus, #eb553a, #be3d2d, $grey-lighten-1),
-	"gwallet": ($gwallet, #262626, #000, $grey-lighten-1),
-	"imdb": ($imdb, #f2df17, #f19d00, $grey-lighten-1),
-	"instagram": ($instagram, #913ebb, #5e30a2, $grey-lighten-1),
-	"jcb": ($jcb, #262626, #000, $grey-lighten-1),
-	"line": ($line, #4acd41, #00a100, $grey-lighten-1),
-	"linkedin": ($linkedin, #0087c9, #005693, $grey-lighten-1),
-	"mastercard": ($mastercard, #f63a3c, #bf0000, $grey-lighten-1),
-	"medium": ($medium, #262626, #000, $grey-lighten-1),
-	"microsoft": ($microsoft, #ff723e, #da460a, $grey-lighten-1),
-	"monero": ($monero, #ff8700, #c34f02, $grey-lighten-1),
-	"paypal": ($paypal, #1c429e, #001e72, $grey-lighten-1),
-	"pinterest": ($pinterest, #eb3037, #bf0218, $grey-lighten-1),
-	"playstation": ($playstation, #1e4ba9, #00267c, $grey-lighten-1),
-	"quora": ($quora, #d63c39, #99231f, $grey-lighten-1),
-	"reddit": ($reddit, #ff4a05, #e33400, $grey-lighten-1),
-	"redhat": ($redhat, #ff391c, #b60101, $grey-lighten-1),
-	"skype": ($skype, #43bef2, #0082cb, $grey-lighten-1),
-	"slack": ($slack, #90d9e8, #54b4cb, $grey-lighten-1),
-	"snapchat": ($snapchat, #f3f136, #ffb300, $grey-lighten-1),
-	"soundcloud": ($soundcloud, #ff9400, #f36703, $grey-lighten-1),
-	"spotify": ($spotify, #4cc46e, #008633, $grey-lighten-1),
-	"stack-exchange": ($stack-exchange, #2372ba, #1e5397, $grey-lighten-1),
-	"stack-overflow": ($stack-overflow, #f9aa31, #e95908, $grey-lighten-1),
-	"steam": ($steam, #262626, #000, $grey-lighten-1),
-	"stripe": ($stripe, #7855ff, #2526f0, $grey-lighten-1),
-	"telegram": ($telegram, #059be0, #005796, $grey-lighten-1),
-	"tripadvisor": ($tripadvisor, #45be9b, #008258, $grey-lighten-1),
-	"tumblr": ($tumblr, #445972, #223144, $grey-lighten-1),
-	"twitter": ($twitter, #53b1f3, #0071d0, $grey-lighten-1),
-	"uber": ($uber, #262626, #000, $grey-lighten-1),
-	"viacoin": ($viacoin, #262626, #000, $grey-lighten-1),
-	"vimeo": ($vimeo, #4ac3ec, #0089c7, $grey-lighten-1),
-	"visa": ($visa, #273086, #070b56, $grey-lighten-1),
-	"vk": ($vk, #4e76a0, #364a6d, $grey-lighten-1),
-	"waze": ($waze, #b1d8f4, #0084df, $grey-lighten-1),
-	"wechat": ($wechat, #8bc336, #528b1a, $grey-lighten-1),
-	"weibo": ($weibo, #ff382f, #c40014, $grey-lighten-1),
-	"windows": ($windows, #0388ea, #0047a6, $grey-lighten-1),
-	"whatsapp": ($whatsapp, #61dc82, #00a62e, $grey-lighten-1),
-	"wordpress": ($wordpress, #2385ae, #17557a, $grey-lighten-1),
-	"xbox": ($xbox, #6abc60, #317e26, $grey-lighten-1),
-	"yahoo": ($yahoo, #66039f, #270056, $grey-lighten-1),
-	"yandex": ($yandex, #ff5436, #b30000, $grey-lighten-1),
-	"youtube": ($youtube, #ff5436, #b30000, $grey-lighten-1)
-);
-
-$inno-default-md-colors: (
-	"primary": $primary,
-	"secondary": $secondary,
-	"success": $success,
-	"warning": $warning,
-	"danger": $danger, 
-	"info": $info,
-	"default": $default,
-	"red": $red,
-	"pink": $pink,
-	"purple": $purple,
-	"deep-purple": $deep-purple,
-	"indigo": $indigo,
-	"blue": $blue,
-	"light-blue": $light-blue,
-	"cyan": $cyan,
-	"teal": $teal,
-	"green": $green,
-	"light-green": $light-green,
-	"lime": $lime,
-	"yellow": $yellow,
-	"amber": $amber,
-	"orange": $orange,
-	"deep-orange": $deep-orange,
-	"brown": $brown,
-	"grey": $grey,
-	"blue-grey": $blue-grey,
-);
-
-$db-lw-colors: (
-	"dark": $dark,
-	"black": $black,
-	"light": $light,
-	"white": $white
-);
-
-$filter-colors: (
-	"red": (244, 67, 54),
-	"pink": (233, 30, 99),
-	"purple": (156, 39, 176),
-	"deep-purple": (103, 58, 183),
-	"indigo": (63, 81, 181),
-	"blue": (33, 150, 243),
-	"light-blue": (3, 169, 244),
-	"cyan": (0, 188, 212),
-	"teal": (0, 150, 136),
-	"green": (76, 175, 80),
-	"light-green": (139, 195, 74),
-	"lime": (205, 220, 57),
-	"yellow": (255, 235, 59),
-	"amber": (255, 193, 7),
-	"orange": (255, 152, 0),
-	"deep-orange": (255, 87, 34),
-	"brown": (121, 85, 72),
-	"grey": (158, 158, 158),
-	"blue-grey": (96, 125, 139),
-	"black": (0, 0, 0),
-	"white": (255, 255, 255)
-);
-
-$pagination-colors: (
-	"primary": ($primary, $white),
-	"secondary": ($secondary, $white),
-	"success": ($success, $white),
-	"warning": ($warning, $white),
-	"danger": ($danger, $white),
-	"info": ($info, $white),
-	"default": ($default, $black),
-	"red": ($red, $white),
-	"pink": ($pink, $white),
-	"purple": ($purple, $white),
-	"deep-purple": ($deep-purple, $white),
-	"indigo": ($indigo, $white),
-	"blue": ($blue, $white),
-	"light-blue": (#03a9f4, $white),
-	"cyan": ($cyan, $white),
-	"teal": ($teal, $white),
-	"green": ($green, $white),
-	"light-green": ($light-green, $white),
-	"lime": ($lime, $white),
-	"yellow": ($yellow, $black),
-	"amber": ($amber, $white),
-	"orange": ($orange, $white),
-	"deep-orange": ($deep-orange, $white),
-	"brown": ($brown, $white),
-	"grey": ($grey, $white),
-	"blue-grey": ($blue-grey, $white),
-	"dark": ($dark, $white),
-	"black": ($black, $white),
-	"light": ($light, $black),
-	"white": ($white, $black)
-);
-
-$text-colors: (
-	"primary": ($primary, #0056b3),
-	"secondary": ($secondary, #5e2e85),
-	"success": ($success, #19692c),
-	"warning": ($warning, #ba8b00),
-	"danger": ($danger, #a71d2a),
-	"info": ($info, #0f6674),
-	"default": ($default, #298e85),
-	"red": ($red, #b71c1c),
-	"pink": ($pink, #880e4f),
-	"purple": ($purple, #4a148c),
-	"deep-purple": ($deep-purple, #311b92),
-	"indigo": ($indigo, #1a237e),
-	"blue": ($blue, #0d47a1),
-	"light-blue": ($light-blue, #01579b),
-	"cyan": ($cyan, #006064),
-	"teal": ($teal, #004d40),
-	"green": ($green, #1b5e20),
-	"light-green": ($light-green, #33691e),
-	"lime": ($lime, #827717),
-	"yellow": ($yellow, #f57f17),
-	"amber": ($amber, #ff6f00),
-	"orange": ($orange, #e65100),
-	"deep-orange": ($deep-orange, #bf360c),
-	"brown": ($brown, #3e2723),
-	"grey": ($grey, #424242),
-	"blue-grey": ($blue-grey, #263238),
-	"dark": ($dark, #000),
-	"light": (#f7f7f7, #a4a4a4),
-	"black": ($black, #000)
-);
-
-$inno-md-colors: map-merge((
-	"red": (
-		"lighten-1": #ffebee,
-		"lighten-2": #ffcdd2,
-		"lighten-3": #ef9a9a,
-		"lighten-4": #e57373,
-		"lighten-5": #ef5350,
-		"default": $red,
-		"darken-1": #e53935,
-		"darken-2": #d32f2f,
-		"darken-3": #c62828,
-		"darken-4": #b71c1c,
-		"a-100": #ff8a80,
-		"a-200": #ff5252,
-		"a-400": #ff1744,
-		"a-700": #d50000
-	),
-	"pink": (
-		"lighten-1": #fce4ec,
-		"lighten-2": #f8bbd0,
-		"lighten-3": #f48fb1,
-		"lighten-4": #f06292,
-		"lighten-5": #ec407a,
-		"default": #e91e63,
-		"darken-1": #d81b60,
-		"darken-2": #c2185b,
-		"darken-3": #ad1457,
-		"darken-4": #880e4f,
-		"a-100": #ff80ab,
-		"a-200": #ff4081,
-		"a-400": #f50057,
-		"a-700": #c51162
-	),
-	"purple": (
-		"lighten-1": #f3e5f5,
-		"lighten-2": #e1bee7,
-		"lighten-3": #ce93d8,
-		"lighten-4": #ba68c8,
-		"lighten-5": #ab47bc,
-		"default": #9c27b0,
-		"darken-1": #8e24aa,
-		"darken-2": #7b1fa2,
-		"darken-3": #6a1b9a,
-		"darken-4": #4a148c,
-		"a-100": #ea80fc,
-		"a-200": #e040fb,
-		"a-400": #d500f9,
-		"a-700": #aa00ff
-	),
-	"deep-purple": (
-		"lighten-1": #ede7f6,
-		"lighten-2": #d1c4e9,
-		"lighten-3": #b39ddb,
-		"lighten-4": #9575cd,
-		"lighten-5": #7e57c2,
-		"default": #673ab7,
-		"darken-1": #5e35b1,
-		"darken-2": #512da8,
-		"darken-3": #4527a0,
-		"darken-4": #311b92,
-		"a-100": #b388ff,
-		"a-200": #7c4dff,
-		"a-400": #651fff,
-		"a-700": #6200ea
-	),
-	"indigo": (
-		"lighten-1": #e8eaf6,
-		"lighten-2": #c5cae9,
-		"lighten-3": #9fa8da,
-		"lighten-4": #7986cb,
-		"lighten-5": #5c6bc0,
-		"default": #3f51b5,
-		"darken-1": #3949ab,
-		"darken-2": #303f9f,
-		"darken-3": #283593,
-		"darken-4": #1a237e,
-		"a-100": #8c9eff,
-		"a-200": #536dfe,
-		"a-400": #3d5afe,
-		"a-700": #304ffe
-	),
-	"blue": (
-		"lighten-1": #e3f2fd,
-		"lighten-2": #bbdefb,
-		"lighten-3": #90caf9,
-		"lighten-4": #64b5f6,
-		"lighten-5": #42a5f5,
-		"default": #2196f3,
-		"darken-1": #1e88e5,
-		"darken-2": #1976d2,
-		"darken-3": #1565c0,
-		"darken-4": #0d47a1,
-		"a-100": #82b1ff,
-		"a-200": #448aff,
-		"a-400": #2979ff,
-		"a-700": #2962ff
-	),
-	"light-blue": (
-		"lighten-1": #e1f5fe,
-		"lighten-2": #b3e5fc,
-		"lighten-3": #81d4fa,
-		"lighten-4": #4fc3f7,
-		"lighten-5": #29b6f6,
-		"default": #03a9f4,
-		"darken-1": #039be5,
-		"darken-2": #0288d1,
-		"darken-3": #0277bd,
-		"darken-4": #01579b,
-		"a-100": #80d8ff,
-		"a-200": #40c4ff,
-		"a-400": #00b0ff,
-		"a-700": #0091ea
-	),
-	"cyan": (
-		"lighten-1": #e0f7fa,
-		"lighten-2": #b2ebf2,
-		"lighten-3": #80deea,
-		"lighten-4": #4dd0e1,
-		"lighten-5": #26c6da,
-		"default": #00bcd4,
-		"darken-1": #00acc1,
-		"darken-2": #0097a7,
-		"darken-3": #00838f,
-		"darken-4": #006064,
-		"a-100": #84ffff,
-		"a-200": #18ffff,
-		"a-400": #00e5ff,
-		"a-700": #00b8d4
-	),
-	"teal": (
-		"lighten-1": #e0f2f1,
-		"lighten-2": #b2dfdb,
-		"lighten-3": #80cbc4,
-		"lighten-4": #4db6ac,
-		"lighten-5": #26a69a,
-		"default": #009688,
-		"darken-1": #00897b,
-		"darken-2": #00796b,
-		"darken-3": #00695c,
-		"darken-4": #004d40,
-		"a-100": #a7ffeb,
-		"a-200": #64ffda,
-		"a-400": #1de9b6,
-		"a-700": #00bfa5
-	),
-	"green": (
-		"lighten-1": #e8f5e9,
-		"lighten-2": #c8e6c9,
-		"lighten-3": #a5d6a7,
-		"lighten-4": #81c784,
-		"lighten-5": #66bb6a,
-		"default": #4caf50,
-		"darken-1": #43a047,
-		"darken-2": #388e3c,
-		"darken-3": #2e7d32,
-		"darken-4": #1b5e20,
-		"a-100": #b9f6ca,
-		"a-200": #69f0ae,
-		"a-400": #00e676,
-		"a-700": #00c853
-	),
-	"light-green": (
-		"lighten-1": #f1f8e9,
-		"lighten-2": #dcedc8,
-		"lighten-3": #c5e1a5,
-		"lighten-4": #aed581,
-		"lighten-5": #9ccc65,
-		"default": #8bc34a,
-		"darken-1": #7cb342,
-		"darken-2": #689f38,
-		"darken-3": #558b2f,
-		"darken-4": #33691e,
-		"a-100": #ccff90,
-		"a-200": #b2ff59,
-		"a-400": #76ff03,
-		"a-700": #64dd17
-	),
-	"lime": (
-		"lighten-1": #f9fbe7,
-		"lighten-2": #f0f4c3,
-		"lighten-3": #e6ee9c,
-		"lighten-4": #dce775,
-		"lighten-5": #d4e157,
-		"default": #cddc39,
-		"darken-1": #c0ca33,
-		"darken-2": #afb42b,
-		"darken-3": #9e9d24,
-		"darken-4": #827717,
-		"a-100": #f4ff81,
-		"a-200": #eeff41,
-		"a-400": #c6ff00,
-		"a-700": #aeea00
-	),
-	"yellow": (
-		"lighten-1": #fffde7,
-		"lighten-2": #fff9c4,
-		"lighten-3": #fff59d,
-		"lighten-4": #fff176,
-		"lighten-5": #ffee58,
-		"default": #ffeb3b,
-		"darken-1": #fdd835,
-		"darken-2": #fbc02d,
-		"darken-3": #f9a825,
-		"darken-4": #f57f17,
-		"a-100": #ffff8d,
-		"a-200": #ffff00,
-		"a-400": #ffea00,
-		"a-700": #ffd600
-	),
-	"amber": (
-		"lighten-1": #fff8e1,
-		"lighten-2": #ffecb3,
-		"lighten-3": #ffe082,
-		"lighten-4": #ffd54f,
-		"lighten-5": #ffca28,
-		"default": #ffc107,
-		"darken-1": #ffb300,
-		"darken-2": #ffa000,
-		"darken-3": #ff8f00,
-		"darken-4": #ff6f00,
-		"a-100": #ffe57f,
-		"a-200": #ffd740,
-		"a-400": #ffc400,
-		"a-700": #ffab00
-	),
-	"orange": (
-		"lighten-1": #fff3e0,
-		"lighten-2": #ffe0b2,
-		"lighten-3": #ffcc80,
-		"lighten-4": #ffb74d,
-		"lighten-5": #ffa726,
-		"default": #ff9800,
-		"darken-1": #fb8c00,
-		"darken-2": #f57c00,
-		"darken-3": #ef6c00,
-		"darken-4": #e65100,
-		"a-100": #ffd180,
-		"a-200": #ffab40,
-		"a-400": #ff9100,
-		"a-700": #ff6d00
-	),
-	"deep-orange": (
-		"lighten-1": #fbe9e7,
-		"lighten-2": #ffccbc,
-		"lighten-3": #ffab91,
-		"lighten-4": #ff8a65,
-		"lighten-5": #ff7043,
-		"default": #ff5722,
-		"darken-1": #f4511e,
-		"darken-2": #e64a19,
-		"darken-3": #d84315,
-		"darken-4": #bf360c,
-		"a-100": #ff9e80,
-		"a-200": #ff6e40,
-		"a-400": #ff3d00,
-		"a-700": #dd2c00
-	),
-	"brown": (
-		"lighten-1": $brown-lighten-1,
-		"lighten-2": $brown-lighten-2,
-		"lighten-3": $brown-lighten-3,
-		"lighten-4": $brown-lighten-4,
-		"lighten-5": $brown-lighten-5,
-		"default": $brown,
-		"darken-1": $brown-darken-1,
-		"darken-2": $brown-darken-2,
-		"darken-3": $brown-darken-3,
-		"darken-4": $brown-darken-4
-	),
-	"grey": (
-		"lighten-1": $grey-lighten-1,
-		"lighten-2": $grey-lighten-2,
-		"lighten-3": $grey-lighten-3,
-		"lighten-4": $grey-lighten-4,
-		"lighten-5": $grey-lighten-5,
-		"default": $grey,
-		"darken-1": $grey-darken-1,
-		"darken-2": $grey-darken-2,
-		"darken-3": $grey-darken-3,
-		"darken-4": $grey-darken-4
-	),
-	"blue-grey": (
-		"lighten-1": $blue-grey-lighten-1,
-		"lighten-2": $blue-grey-lighten-2,
-		"lighten-3": $blue-grey-lighten-3,
-		"lighten-4": $blue-grey-lighten-4,
-		"lighten-5": $blue-grey-lighten-5,
-		"default": $blue-grey,
-		"darken-1": $blue-grey-darken-1,
-		"darken-2": $blue-grey-darken-2,
-		"darken-3": $blue-grey-darken-3,
-		"darken-4": $blue-grey-darken-4
-	)
-), ());

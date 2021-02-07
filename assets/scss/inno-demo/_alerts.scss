@@ -1,0 +1,38 @@
+.alert {
+	background-color: white;
+	border: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	color: #757575;
+	line-height: 1.25em;
+	padding: 1.25em 1em;
+	a,
+	.alert-link {
+		color: #757575;
+	}
+	b {
+		font-size: 0.875em;
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+	.alert-icon i {
+		margin: auto;
+		margin-right: 0.75em;
+		position: relative;
+	}
+	.close {
+		opacity: 0.5;
+		text-shadow: none;
+		i {
+			font-size: 1em;
+		}
+		&:hover,
+		&:focus {
+			opacity: 1;
+		}
+	}
+}
+
+.alert-link {
+	font-weight: 200;
+}

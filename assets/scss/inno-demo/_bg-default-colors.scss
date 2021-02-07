@@ -1,0 +1,13 @@
+@each $name, $color_list in $bg-default-colors {
+	$color: nth($color_list, 1);
+	$hover_focus: nth($color_list, 2);
+	.bg-#{$name} {
+		background-color: $color !important;
+	}
+	a.bg-#{$name}:hover,
+	a.bg-#{$name}:focus,
+	button.bg-#{$name}:hover,
+	button.bg-#{$name}:focus {
+		background-color: $hover_focus !important;
+	}
+}

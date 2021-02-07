@@ -1,0 +1,9 @@
+@each $name, $colors in $pagination-colors {
+	$bg-color: nth($colors, 1);
+	$text-color: nth($colors, 2);
+	.pagination.pg-#{$name} .page-item.active .page-link,
+	.pagination.pg-#{$name} .page-item.active .page-link:hover {
+		background-color: $bg-color;
+		color: $text-color;
+	}
+}
