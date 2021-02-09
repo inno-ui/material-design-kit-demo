@@ -1,0 +1,17 @@
+@each $name, $color_codes in $filter-colors {
+	$r: nth($color_codes, 1);
+	$g: nth($color_codes, 2);
+	$b: nth($color_codes, 3);
+	.filter-#{$name}-light,
+	.filter-#{$name}-light:after {
+		background-color: rgba($r, $g, $b, 0.15);
+	}
+	.filter-#{$name}-normal,
+	.filter-#{$name}-normal:after {
+		background-color: rgba($r, $g, $b, 0.3);
+	}
+	.filter-#{$name}-dark,
+	.filter-#{$name}-dark:after {
+		background-color: rgba($r, $g, $b, 0.7);
+	}
+}

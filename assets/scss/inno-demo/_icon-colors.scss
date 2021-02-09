@@ -1,0 +1,9 @@
+@each $name, $color in $inno-default-md-colors {
+	.#{$name}-icon {
+		color: $color !important;
+		&:focus,
+		&:hover {
+			color: $color;
+		}
+	}
+}

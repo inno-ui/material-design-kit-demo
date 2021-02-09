@@ -1,0 +1,11 @@
+@each $name, $colors in $inno-text-colors {
+	$text-color: nth($colors, 1);
+	$hover-color: nth($colors, 2);
+	.text-#{$name} {
+		color: $text-color !important;
+	}
+	a.text-#{$name}:hover,
+	a.text-#{$name}:focus {
+		color: $hover-color !important;
+	}
+}
