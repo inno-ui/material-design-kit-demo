@@ -1,0 +1,32 @@
+@each $name, $color in $btn-outline-colors {
+	.btn-outline-#{$name} {
+		background-color: transparent !important;
+		border: 2px solid $color !important;
+		color: $color !important;
+		font-weight: 400;
+		letter-spacing: 0.04em;
+	}
+	.btn-outline-#{$name}:hover {
+		background-color: $grey-lighten-2 !important;
+	}
+	.btn-outline-#{$name}:focus,
+	.btn-outline-#{$name}.active,
+	.btn-outline-#{$name}:active,
+	.btn-outline-#{$name}:active:focus {
+		background-color: $grey-lighten-4 !important;
+	}
+	.btn-outline-#{$name}:not([disabled]):not(.disabled):active,
+	.btn-outline-#{$name}:not([disabled]):not(.disabled).active,
+	.show > .btn-outline-#{$name}.dropdown-toggle {
+		background-color: transparent !important;
+		border-color: $color !important;
+		-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.15);
+		box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.15);
+	}
+	.btn-outline-#{$name}:not([disabled]):not(.disabled):active:focus,
+	.btn-outline-#{$name}:not([disabled]):not(.disabled).active:focus,
+	.show > .btn-outline-#{$name}.dropdown-toggle:focus {
+		-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.15);
+		box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.15);
+	}
+}

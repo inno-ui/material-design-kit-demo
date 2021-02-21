@@ -1,0 +1,41 @@
+@each $name, $colors_list in $btn-contain-colors {
+	$main_color: nth($colors_list, 1);
+	$hover_color: nth($colors_list, 2);
+	$active_color: nth($colors_list, 3);
+	$text_color: nth($colors_list, 4);
+	.btn-#{$name} {
+		background-color: $main_color !important;
+		color: $text_color !important;
+		font-weight: 400;
+	}
+	.btn-#{$name}:hover {
+		background-color: $hover_color !important;
+	}
+	.btn-#{$name}.active,
+	.btn-#{$name}:active,
+	.btn-#{$name}.focus,
+	.btn-#{$name}:focus,
+	.btn-#{$name}:active:focus {
+		background-color: $active_color !important;
+	}
+	.btn-#{$name}.dropdown-toggle {
+		background-color: $main_color !important;
+	}
+	.btn-#{$name}.dropdown-toggle:hover,
+	.btn-#{$name}.dropdown-toggle:focus {
+		background-color: $hover_color !important;
+	}
+	.btn-#{$name}:not([disabled]):not(.disabled):active,
+	.btn-#{$name}:not([disabled]):not(.disabled).active,
+	.show > .btn-#{$name}.dropdown-toggle {
+		-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.15);
+		box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.15);
+		background-color: $active_color !important;
+	}
+	.btn-#{$name}:not([disabled]):not(.disabled):active:focus,
+	.btn-#{$name}:not([disabled]):not(.disabled).active:focus,
+	.show > .btn-#{$name}.dropdown-toggle:focus {
+		-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.15);
+		box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.15);
+	}
+}
