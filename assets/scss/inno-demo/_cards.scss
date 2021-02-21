@@ -1,0 +1,158 @@
+.card {
+	margin: 10px;
+	border-radius: 4px;
+	&::after {
+		clear: both;
+	}
+	&::before,
+	&::after {
+		content: "";
+		display: block;
+	}
+	.media {
+		.card-primary-text,
+		.card-secondary-text {
+			color: #fff;
+		}
+	}
+}
+
+.card-group {
+	.card {
+		margin-right: 0 !important;
+	}
+}
+
+.card,
+.card-left,
+.card-middle,
+.card-right {
+	background-color: #fff;
+	border: 0;
+	box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);	
+	color: rgba(0, 0, 0, 0.87);
+	overflow: hidden;
+	position: relative;
+}
+
+.card-left {
+	margin: 10px 0px 10px 10px;
+	border-radius: 4px 0 0 4px;
+}
+
+.card-middle {
+	margin: 10px 0;
+}
+
+.card-right {
+	margin: 10px 10px 10px 0;
+	border-radius: 0px 4px 4px 0px;
+}
+
+.card-title {
+	font-size: 1em;
+	font-weight: 500;
+	line-height: 1.2;
+	+ .card-subhead {
+		/* margin-top is 50% of the title font size. */
+		margin-top: calc(14px/2/2);
+	}
+}
+
+.card-subhead {
+	color: rgba(0, 0, 0, 0.55);
+	font-size: 0.75em;
+}
+
+.card-primary-title {
+	padding: 24px 16px 16px;
+	.card-optional-header {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	+ .card-supporting-text {
+		padding-top: 0;
+	}
+}
+
+.card-primary-text {
+	font-size: 1.5em;
+	line-height: 1.2;
+}
+
+.media {
+	.card-optional-header {
+		box-sizing: border-box;
+		color: #fff;
+		display: block;
+		float: left;
+		width: 100%;
+		z-index: 100;
+		.card-primary-title {
+			background-image: none;
+			width: auto;
+		}
+		.card-subhead {
+			color: rgba(255, 255, 255, 0.7);
+		}
+	}
+	.card-primary-text,
+	.card-secondary-text {
+		color: #fff;
+	}
+	.card-primary-title {
+		background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.46));
+		bottom: 0;
+		box-sizing: border-box;
+		padding: 16px 16px 24px;
+		position: absolute;
+		width: 100%;
+		z-index: 1;
+	}
+}
+
+.card-secondary-text {
+	color: rgba(0, 0, 0, 0.54);
+	font-size: 0.875em;
+	.action-icon {
+		font-size: inherit;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.card-supporting-text {
+	font-size: 0.875em;
+	line-height: 1.5;
+	padding-top: 1em;
+}
+
+.card-optional-header + .card-primary-text,
+.card-primary-text + .card-secondary-text,
+.card-secondary-text + .card-primary-text {
+	/* margin-top is 50% of the primary title font size. */
+	margin-top: calc(24px/2/2);
+}
+
+.card-optional-header {
+	position: relative;
+	min-height: 40px;
+	padding: 0.625em;
+	.action-icons {
+		position: relative;
+		float: right;
+		right: -8px;
+		top: 2px;
+	}
+	.card-primary-title {
+		position: absolute;
+		display: inline-block;
+		padding: 0;
+		top: 50%;
+		bottom: auto;
+		transform: translate(0, -50%);
+	}
+	+ .card-supporting-text {
+		padding-top: 0;
+	}
+}

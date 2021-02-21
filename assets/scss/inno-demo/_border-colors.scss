@@ -1,0 +1,5 @@
+@each $name, $color in map-merge($inno-default-md-colors, $db-lw-colors) {
+	.border-#{$name} {
+		border-color: $color !important;
+	}
+}

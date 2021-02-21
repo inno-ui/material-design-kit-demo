@@ -1,0 +1,16 @@
+.progress {
+	border-radius: 0;
+	box-shadow: none;
+	background: #ddd;
+	background-color: #eee;
+	display: flex;
+	margin-bottom: 1rem;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	.progress-bar {
+		box-shadow: none;
+		border-radius: 0;
+		height: inherit;
+	}
+}

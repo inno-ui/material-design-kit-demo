@@ -1,0 +1,21 @@
+.dropup, .dropright, .dropdown, .dropleft {
+	.dropdown-menu {
+		padding: 0.5rem; 
+		.dropdown-item {
+			font-size: 0.95rem;
+			margin-left: 0;
+			padding: 0.5rem;
+			&:hover, &:active {
+				background-color: #4285f4;
+				border-radius: 0.125rem;
+				-webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.18), 0 2px 7px rgba(0, 0, 0, 0.15);
+				box-shadow: 0 3px 4px rgba(0, 0, 0, 0.18), 0 2px 7px rgba(0, 0, 0, 0.15);
+				color: #fff;
+				transition: all 0.05s linear;
+			}
+			&.disabled, &:disabled {
+				color: rgba(0, 0, 0, 0.38);
+			}
+		}
+	}
+}
