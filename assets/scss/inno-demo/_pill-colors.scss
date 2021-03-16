@@ -1,0 +1,64 @@
+@each $name, $color in $btn-outline-colors {
+	.pills-outline-#{$name} .nav-link.active {
+		border: 2px solid $color !important;
+		background-color: transparent !important;
+		color: $color !important;
+		text-align: center;
+	}
+}
+
+@each $name, $color in $inno-default-md-colors {
+	.pills-#{$name} .show > .nav-link {
+		background-color: $color !important;
+	}
+	.pills-#{$name} .nav-link.active {
+		background-color: $color !important;
+	}
+	.tabs-#{$name} {
+		background-color: $color !important;
+	}
+}
+
+.pills-black .show > .nav-link {
+	background-color: $black !important;
+}
+.pills-black .nav-link.active {
+	background-color: $black !important;
+	color: #f0f0f0 !important;
+}
+.tabs-black {
+	background-color: $black !important;
+}
+
+.pills-dark .show > .nav-link {
+	background-color: $dark !important;
+}
+.pills-dark .nav-link.active {
+	background-color: $dark !important;
+	color: #f0f0f0 !important;
+}
+.tabs-dark {
+	background-color: $dark !important;
+}
+
+.pills-light .show > .nav-link {
+	background-color: $light !important;
+}
+.pills-light .nav-link.active {
+	background-color: $light !important;
+	color: #424242 !important;
+}
+.tabs-light {
+	background-color: $light !important;
+}
+
+.pills-white .show > .nav-link {
+	background-color: $white !important;
+}
+.pills-white .nav-link.active {
+	background-color: $white !important;
+	color: #424242 !important;
+}
+.tabs-white {
+	background-color: $white !important;
+}
