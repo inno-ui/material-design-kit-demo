@@ -1,0 +1,524 @@
+// /*.inputs .material-icons,*/
+// /*.inputs .fa-lock,*/
+// .inputs .fa-group {
+//  	max-width: 24px; /* ??? */
+// }
+
+// /*.inputs .fa-lock,*/
+// .inputs .material-icons {
+// 	font-size: 1.5rem;
+// 	/*margin-top: 0.4em;*/
+// }
+
+// /*.inputs .fa-lock,*/
+// .inputs .fa-group {
+// 	margin-right: 0.8em;
+// 	margin-top: 0.75em;
+// 	font-size: 1.15rem;
+// }
+
+// .inputs .flex {
+// 	display: flex;
+// 	flex-direction: row;
+// }
+
+// .inputs textarea,
+// .inputs.outline textarea {
+//   resize: none;
+// }
+
+// .inputs input,
+// .inputs textarea {
+//   background: none;
+//   color: #000;
+//   font-size: 1rem;
+//   padding: 10px 10px 10px 5px;
+//   display: block;
+//   width: 100%;
+//   border: none;
+//   border-radius: 0;
+//   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+// }
+
+// .inputs input:focus,
+// .inputs textarea:focus {
+//   outline: none;
+// }
+
+// .inputs input[placeholder] ~ label {
+//   font-size: 0.9rem;
+// }
+
+// .inputs input:focus ~ label, 
+// .inputs input:valid ~ label,
+// .inputs textarea:valid ~ label,
+// .inputs textarea:focus ~ label {
+//   font-size: 0.9rem;
+// }
+
+// .inputs input:focus ~ label,
+// .inputs textarea:focus ~ label {
+//   color: #4285f4;
+// }
+
+// .inputs input[placeholder] ~ label,
+// .inputs input:focus ~ label, 
+// .inputs input:valid ~ label {
+//   top: -15px;
+// }
+
+// .inputs textarea:focus ~ label,
+// .inputs textarea:valid ~ label {
+//   top: -25px; /* check if this is the right value */
+// }
+
+// .inputs input:focus ~ .bar:before,
+// .inputs textarea:focus ~ .bar:before {
+//   width: 100%;
+// }
+
+// /* spacing between password characters */
+// .inputs input[type="password"]:valid,
+// .inputs-outline input[type="password"]:valid {
+//   letter-spacing: 0.2em;
+// }
+
+// .inputs label {
+//   color: #757575;
+//   font-size: 1.05rem; /* before was 15px; */
+//   font-weight: normal;
+//   position: absolute;
+//   pointer-events: none;
+//   left: 5px;
+//   top: 10px;
+//   transition: 300ms ease all;
+// }
+
+// .inputs .bar {
+//   position: relative;
+//   display: block;
+// }
+
+// .inputs .bar:before {
+//   background: #4285f4;
+//   bottom: 0px;
+//   content: "";
+//   position: absolute;
+//   height: 2px;
+//   width: 0;
+//   transition: 300ms ease all;
+//   left: 0%;
+// }
+
+// /* material design input form text outline */
+.inputs-outline {
+	position: relative;
+	input,
+	textarea {
+		border: 1px solid rgba(0, 0, 0, 0.2);
+		border-radius: 4px;
+		color: #000;
+		display: inline-block;
+		font-size: 1rem;
+		padding: 1rem;
+		width: 100%;
+	}
+}
+
+// .inputs-outline input:not(:disabled):not(:focus):hover,
+// .inputs-outline textarea:not(:disabled):not(:focus):hover {
+//   border: 1px solid rgba(0, 0, 0, 0.6);
+// }
+
+// .inputs-outline input:focus,
+// .inputs-outline textarea:focus {
+//   border: 2px solid rgb(66, 133, 244);
+//   outline: none;
+// }
+
+// .inputs-outline label {
+//   color: #757575;
+//   font-size: 1.05rem;
+//   font-weight: normal;
+//   position: absolute;
+//   pointer-events: none;
+//   left: 0.5rem;
+//   top: 1rem;
+//   transition: 300ms ease all;
+//   background-color: #fff;
+//   border-radius: 4px;
+//   padding-left: 0.5rem;
+//   padding-right: 0.5rem;
+// }
+
+// .inputs-outline input:focus ~ label, 
+// .inputs-outline input:valid ~ label,
+// .inputs-outline textarea:focus ~ label,
+// .inputs-outline textarea:valid ~ label {
+//   top: -0.65rem;
+//   font-size: 0.9rem;
+// }
+
+// .inputs-outline input:focus ~ label,
+// .inputs-outline textarea:focus ~ label {
+//   color: #4285f4;
+// }
+
+// .inputs-outline input::placeholder,
+// .inputs-outline textarea::placeholder {
+//   visibility: hidden;
+// }
+// .inputs-outline input:focus::placeholder,
+// .inputs-outline textarea:focus::placeholder {
+//   visibility: visible;
+// }
+
+// .inputs-outline.success input {
+//   border: 1px solid rgba(15, 157, 88, 1);
+// }
+// .inputs-outline.success input:focus {
+//   border: 2px solid rgba(15, 157, 88, 1);
+// }
+// .inputs-outline.error input {
+//   border: 1px solid rgba(219, 68, 55, 1);
+// }
+// .inputs-outline.error input:focus {
+//   border: 2px solid rgba(219, 68, 55, 1);
+// }
+// /* material design input form text outline */
+
+
+// /* material design input form filled */
+// .inputs.filled input:focus ~ label, 
+// .inputs.filled input:valid ~ label {
+//   top: 0.15rem;
+//   font-size: 0.85rem;
+// }
+// .inputs.filled label {
+//   left: 1rem;
+//   top: 1rem;
+// }
+// .inputs.filled input {
+//   background-color: #f5f5f5;
+//   border-top-left-radius: 4px;
+//   border-top-right-radius: 4px;
+//   padding: 1.25rem;
+//   padding-bottom: 0.75rem;
+//   padding-left: 1rem;
+// }
+// .inputs.filled input:not(:disabled):not(:focus):hover {
+//   background-color: #eee;
+//   border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+// }
+// .inputs.filled input:focus {
+//   background-color: #e0e0e0;
+// }
+// /* material design input form filled */
+
+// .text-helper {
+//   color: #9e9e9e !important;
+//   font-size: .8rem;
+//   margin-left: 1rem !important;
+//   margin-top: 0.25rem !important;
+// }
+
+// /* different sizes inputs */
+// .inputs.form-lg label,
+// .inputs-outline.form-lg label {
+//   font-size: 1.25rem; 
+// }
+// .inputs.form-lg input:focus ~ label,
+// .inputs.form-lg input:valid ~ label,
+// .inputs-outline.form-lg input:focus ~ label,
+// .inputs-outline.form-lg input:valid ~ label {
+//   font-size: 1rem; 
+// }
+// .inputs.form-lg input,
+// .inputs.form-lg textarea,
+// .inputs-outline.form-lg input,
+// .inputs-outline.form-lg textarea {
+//   font-size: 1.2rem;
+// }
+
+// .inputs.form-sm label,
+// .inputs-outline.form-sm label {
+//   font-size: 0.9rem; 
+// }
+// .inputs.form-sm input:focus ~ label,
+// .inputs.form-sm input:valid ~ label,
+// .inputs-outline.form-sm input:focus ~ label,
+// .inputs-outline.form-sm input:valid ~ label {
+//   font-size: 0.8rem; 
+// }
+// .inputs.form-sm input,
+// .inputs.form-sm textarea,
+// .inputs-outline.form-sm input,
+// .inputs-outline.form-sm textarea {
+//   font-size: 0.9rem;
+// }
+// /* different sizes inputs */
+
+
+
+
+// label.success,
+// input:focus ~ label.success,
+// input:valid ~ label.success,
+// .inputs .fas.success,
+// .inputs .material-icons.success {
+//   color: #0f9d58;
+// }
+
+// label.error,
+// input:focus ~ label.error,
+// input:valid ~ label.error,
+// .inputs .fas.error,
+// .inputs .material-icons.error {
+//   color: #db4437;
+// }
+// /* success + error */
+
+
+
+
+.inputs-outline {
+	.error-feedback {
+		color: $danger;
+		font-size: 0.8rem;
+	}
+	.success-feedback {
+		color: $success;
+		font-size: 0.8rem;
+	}
+}
+
+.inputs {
+	&.error {
+		input {
+			border-bottom: 1px solid $danger; 
+		}
+		.bar:before {
+			background: $danger;
+		}
+	}
+	&.success {
+		input {
+			border-bottom: 1px solid $success; 
+		}
+		.bar:before {
+			background: $success;
+		}
+	}
+	.error-feedback {
+		color: $danger;
+		font-size: 0.8rem;
+	}
+	.success-feedback {
+		color: $success;
+		font-size: 0.8rem;
+	}
+	form {
+		margin: 45px auto;
+	}
+	.group {
+		position: relative;
+		margin: 45px 0;
+	}
+
+	&.error {
+		input {
+			border-bottom: 1px solid #db4437; 
+		}
+		.bar:before {
+			background: #db4437;
+		}
+	}
+	
+
+	.input-group-prepend {
+		.md-addon {
+			border: none;
+			background-color: transparent;
+			font-weight: 600; 
+		}
+	}
+	.textarea-comment { // Material textarea within a list of comments
+		label {
+			font-size: 16px;
+			left: 5px;
+			top: -25px;
+		}
+		textarea:focus ~ label,
+		textarea:valid ~ label {
+			top: -30px;
+		}
+	}
+	.input-success { // pro
+		label {
+			color: #fff;
+		}
+		input:focus ~ label {
+			color: $success;
+		}
+		.bar:before {
+			background: $success;
+		}
+	}
+	.input-warning { // pro
+		label {
+			color: #fff;
+		}
+		input:focus ~ label {
+			color: $warning;
+		}
+		.bar:before {
+			background: $warning;
+		}
+	}
+	&.md-search-pink-focused { // pro
+		.bar:before {
+			background: #f06292;
+		}
+	}
+	&.md-search-pink-unfocused { // pro
+		input {
+			border-bottom: 2px solid #f06292; 
+		}
+		.bar:before {
+			background: #f06292;
+		}
+	}
+	&.md-search-purple-focused { // pro
+		.bar:before {
+			background: #683ab7;
+		}
+	}
+	&.md-search-purple-unfocused { // pro
+		input {
+			border-bottom: 2px solid #683ab7; 
+		}
+		.bar:before {
+			background: #683ab7;
+		}
+	}
+	&.md-search-green-focused { // pro
+		.bar:before {
+			background: #4caf50;
+		}
+	}
+	&.md-search-green-unfocused { // pro
+		input {
+			border-bottom: 2px solid #4caf50; 
+		}
+		.bar:before {
+			background: #4caf50;
+		}
+	}
+	.textarea-blue {
+		textarea:focus ~ label,
+		textarea:valid ~ label {
+			color: $blue;
+		}
+		.bar:before {
+			background: $blue;
+		}
+	}
+	.textarea-success {
+		label {
+			color: $white;
+		}
+		textarea:focus ~ label {
+			color: $success;
+		}
+		.bar:before {
+			background: $success;
+		}
+	}
+	.textarea-warning {
+		textarea:focus ~ label {
+			color: $warning;
+		}
+		.bar:before {
+			background: $warning;
+		}
+	}
+	.textarea-pink-active {
+		textarea {
+			border-bottom: 2px solid rgba(252, 88, 107, 1);
+			& ~ label {
+				color: #f06292;
+			}
+		}
+		.bar:before {
+			background: #f06292;
+		}
+	}
+	.textarea-purple-active {
+		textarea {
+			border-bottom: 2px solid rgba(104, 58, 183, 1);
+			& ~ label {
+				color: #683ab7;
+			}
+		}
+		.bar:before {
+			background: #683ab7;
+		}
+	}
+	.bar-blue {
+		input,
+		textarea {
+			border-bottom: 1px solid $blue;
+		}
+	}
+	.bar-white {
+		input,
+		textarea {
+			border-bottom: 1px solid $white;
+		}
+	}
+}
+
+/* default search */
+.default-search-noshadow input:focus {
+	border: 1px solid #ced4da;
+	box-shadow: none;
+}
+
+.default-search-pink input,
+.default-search-pink input:focus,
+.default-search-pink-focused input:focus {
+	border: 2px solid #f06292;
+	box-shadow: none;
+}
+
+.default-search-purple input,
+.default-search-purple input:focus,
+.default-search-purple-focused input:focus {
+	border: 2px solid #683ab7;
+	box-shadow: none;
+}
+
+.default-search-green input,
+.default-search-green input:focus,
+.default-search-green-focused input:focus {
+	border: 2px solid #4caf50;
+	box-shadow: none;
+}
+// default search
+
+// default textarea
+.form-group {
+	.form-border-secondary {
+		border: 2px solid $secondary;
+	}
+	.form-border-secondary:focus {
+		-webkit-box-shadow: 0 0 1px 3px rgb(212, 190, 221);
+		box-shadow: 0 0 1px 3px rgb(212, 190, 221);
+	}
+	.form-border-primary:focus {
+		border: 2px solid $primary; 
+		-webkit-box-shadow: 0 0 1px 3px rgb(191, 222, 255);
+		box-shadow: 0 0 1px 3px rgb(191, 222, 255);
+	}
+}
+// default textarea

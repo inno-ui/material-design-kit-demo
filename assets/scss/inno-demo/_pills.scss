@@ -1,0 +1,35 @@
+.nav-pills {
+	&.default-pills {
+		.nav-item {
+			a {
+				border-radius: 0;
+				color: #616161;
+				text-align: left;
+				&.active {
+					-webkit-box-shadow: none;
+					box-shadow: none;
+					background-color: transparent;
+					border-left: 2px solid #45526e;
+					color: #45526e;
+					font-weight: 500;
+					&:hover, &:active, &:focus {
+						background-color: transparent;
+						color: #45526e;
+						font-weight: 500;
+					}
+				}
+				&:hover {
+					background-color: transparent;
+					border-left: 1px solid #45526e;
+					color: #45526e;
+					font-weight: 500;
+				}
+			}
+		}
+	}
+	.nav-item {
+		+ .nav-item {
+			margin-left: 0;
+		}
+	}
+}
