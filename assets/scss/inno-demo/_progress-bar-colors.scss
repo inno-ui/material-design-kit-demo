@@ -1,44 +1,5 @@
-.progress .progress-bar.progress-bar-primary {
-	background-color: #4285f4 !important;
-}
-.progress .progress-bar.progress-bar-secondary {
-	background-color: #9e6db1 !important;
-}
-.progress .progress-bar.progress-bar-success {
-	background-color: #0f9d58 !important;
-}
-.progress .progress-bar.progress-bar-warning {
-	background-color: #f4b400 !important;
-}
-.progress .progress-bar.progress-bar-danger {
-	background-color: #db4437 !important;
-}
-.progress .progress-bar.progress-bar-info {
-	background-color: #43bedd !important;
-}
-.progress .progress-bar.progress-bar-default {
-	background-color: #bce6e5 !important;
-}
-
-
-.progress.progress-line-primary {
-	background-color: rgba(66, 133, 244, 0.25);
-}
-.progress.progress-line-secondary {
-	background-color: rgba(158, 109, 177, 0.25);
-}
-.progress.progress-line-success {
-	background-color: rgba(15, 157, 88, 0.25);
-}
-.progress.progress-line-warning {
-	background-color: rgba(244, 180, 0, 0.25);
-}
-.progress.progress-line-danger {
-	background-color: rgba(219, 68, 55, 0.25);
-}
-.progress.progress-line-info {
-	background-color: rgba(67, 190, 221, 0.25);
-}
-.progress.progress-line-default {
-	background-color: rgba(188, 230, 229, 0.25);
+@each $name, $color in map-merge($inno-default-md-colors, $db-lw-colors) {
+	.progress .progress-bar.progress-bar-#{$name} {
+		background-color: $color !important;
+	}
 }
