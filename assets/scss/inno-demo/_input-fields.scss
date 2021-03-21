@@ -1,235 +1,46 @@
-// /*.inputs .material-icons,*/
-// /*.inputs .fa-lock,*/
-// .inputs .fa-group {
-//  	max-width: 24px; /* ??? */
-// }
-
-// /*.inputs .fa-lock,*/
-// .inputs .material-icons {
-// 	font-size: 1.5rem;
-// 	/*margin-top: 0.4em;*/
-// }
-
-// .inputs textarea,
-// .inputs.outline textarea {
-//   resize: none;
-// }
-
-// .inputs input,
-// .inputs textarea {
-//   background: none;
-//   color: #000;
-//   font-size: 1rem;
-//   padding: 10px 10px 10px 5px;
-//   display: block;
-//   width: 100%;
-//   border: none;
-//   border-radius: 0;
-//   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-// }
-
-// .inputs input:focus,
-// .inputs textarea:focus {
-//   outline: none;
-// }
-
-// .inputs input:focus ~ label, 
-// .inputs input:valid ~ label,
-// .inputs textarea:valid ~ label,
-// .inputs textarea:focus ~ label {
-//   font-size: 0.9rem;
-// }
-
-// .inputs input:focus ~ label,
-// .inputs textarea:focus ~ label {
-//   color: #4285f4;
-// }
-
-// .inputs input[placeholder] ~ label,
-// .inputs input:focus ~ label, 
-// .inputs input:valid ~ label {
-//   top: -15px;
-// }
-
-// .inputs textarea:focus ~ label,
-// .inputs textarea:valid ~ label {
-//   top: -25px; /* check if this is the right value */
-// }
-
-// .inputs input:focus ~ .bar:before,
-// .inputs textarea:focus ~ .bar:before {
-//   width: 100%;
-// }
-
-// /* spacing between password characters */
-// .inputs input[type="password"]:valid,
-// .inputs-outline input[type="password"]:valid {
-//   letter-spacing: 0.2em;
-// }
-
-// .inputs label {
-//   color: #757575;
-//   font-size: 1.05rem; /* before was 15px; */
-//   font-weight: normal;
-//   position: absolute;
-//   pointer-events: none;
-//   left: 5px;
-//   top: 10px;
-//   transition: 300ms ease all;
-// }
-
-// /* material design input form text outline */
-.inputs-outline {
-	position: relative;
+.inputs {
 	input,
 	textarea {
-		border: 1px solid rgba(0, 0, 0, 0.2);
-		border-radius: 4px;
+		background: none;
+		border: none;
+		border-radius: 0;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 		color: #000;
-		display: inline-block;
 		font-size: 1rem;
-		padding: 1rem;
+		padding: 10px 10px 10px 5px;
+		display: block;
 		width: 100%;
+		&:focus {
+			outline: none;
+			~ .bar:before {
+				width: 100%;
+			}
+			~ label {
+				color: #4285f4;
+				font-size: 0.9rem;
+			}
+		}
+		&:valid {
+			~ label {
+				font-size: 0.9rem;
+			}
+		}
 	}
-	label {
-		background-color: #fff;
-		border-radius: 4px;
-		color: #757575;
-		font-size: 1.05rem;
-		font-weight: normal;
-		position: absolute;
-		pointer-events: none;
-		left: 0.5rem;
-		padding-left: 0.5rem;
-		padding-right: 0.5rem;
-		top: 1rem;
-		transition: 300ms ease all;
+	input {
+		&[placeholder] ~ label,
+		&:focus ~ label, 
+		&:valid ~ label {
+			top: -15px;
 	}
-}
-
-// .inputs-outline input:not(:disabled):not(:focus):hover,
-// .inputs-outline textarea:not(:disabled):not(:focus):hover {
-//   border: 1px solid rgba(0, 0, 0, 0.6);
-// }
-
-// .inputs-outline input:focus,
-// .inputs-outline textarea:focus {
-//   border: 2px solid rgb(66, 133, 244);
-//   outline: none;
-// }
-
-// .inputs-outline input:focus ~ label, 
-// .inputs-outline input:valid ~ label,
-// .inputs-outline textarea:focus ~ label,
-// .inputs-outline textarea:valid ~ label {
-//   top: -0.65rem;
-//   font-size: 0.9rem;
-// }
-
-// .inputs-outline input:focus ~ label,
-// .inputs-outline textarea:focus ~ label {
-//   color: #4285f4;
-// }
-
-// .inputs-outline input::placeholder,
-// .inputs-outline textarea::placeholder {
-//   visibility: hidden;
-// }
-// .inputs-outline input:focus::placeholder,
-// .inputs-outline textarea:focus::placeholder {
-//   visibility: visible;
-// }
-
-// .inputs-outline.success input {
-//   border: 1px solid rgba(15, 157, 88, 1);
-// }
-// .inputs-outline.success input:focus {
-//   border: 2px solid rgba(15, 157, 88, 1);
-// }
-// .inputs-outline.error input {
-//   border: 1px solid rgba(219, 68, 55, 1);
-// }
-// .inputs-outline.error input:focus {
-//   border: 2px solid rgba(219, 68, 55, 1);
-// }
-// /* material design input form text outline */
-
-// .text-helper {
-//   color: #9e9e9e !important;
-//   font-size: .8rem;
-//   margin-left: 1rem !important;
-//   margin-top: 0.25rem !important;
-// }
-
-// /* different sizes inputs */
-// .inputs.form-lg label,
-// .inputs-outline.form-lg label {
-//   font-size: 1.25rem; 
-// }
-// .inputs.form-lg input:focus ~ label,
-// .inputs.form-lg input:valid ~ label,
-// .inputs-outline.form-lg input:focus ~ label,
-// .inputs-outline.form-lg input:valid ~ label {
-//   font-size: 1rem; 
-// }
-// .inputs.form-lg input,
-// .inputs.form-lg textarea,
-// .inputs-outline.form-lg input,
-// .inputs-outline.form-lg textarea {
-//   font-size: 1.2rem;
-// }
-
-// .inputs.form-sm label,
-// .inputs-outline.form-sm label {
-//   font-size: 0.9rem; 
-// }
-// .inputs.form-sm input:focus ~ label,
-// .inputs.form-sm input:valid ~ label,
-// .inputs-outline.form-sm input:focus ~ label,
-// .inputs-outline.form-sm input:valid ~ label {
-//   font-size: 0.8rem; 
-// }
-// .inputs.form-sm input,
-// .inputs.form-sm textarea,
-// .inputs-outline.form-sm input,
-// .inputs-outline.form-sm textarea {
-//   font-size: 0.9rem;
-// }
-// /* different sizes inputs */
-
-
-
-
-// label.success,
-// input:focus ~ label.success,
-// input:valid ~ label.success,
-// .inputs .fas.success,
-// .inputs .material-icons.success {
-//   color: #0f9d58;
-// }
-
-// label.error,
-// input:focus ~ label.error,
-// input:valid ~ label.error,
-// .inputs .fas.error,
-// .inputs .material-icons.error {
-//   color: #db4437;
-// }
-// /* success + error */
-
-
-.inputs-outline {
-	.error-feedback {
-		color: $danger;
-		font-size: 0.8rem;
 	}
-	.success-feedback {
-		color: $success;
-		font-size: 0.8rem;
+	textarea {
+		&:focus,
+		&:valid {
+			~ label {
+				top: -25px; // check if this is the right value
+			}
+		}
 	}
-}
-
-.inputs {
 	.bar {
 		display: block;
 		position: relative;
@@ -278,12 +89,22 @@
 		}
 	}
 	// material design input form filled
-	input[placeholder] ~ label {
-		font-size: 0.9rem;
-	}
 	.flex {
 		display: flex;
 		flex-direction: row;
+	}
+	input[placeholder] ~ label {
+		font-size: 0.9rem;
+	}
+	label {
+		color: #757575;
+		font-size: 1.05rem; // before was 15px;
+		font-weight: normal;
+		position: absolute;
+		pointer-events: none;
+		left: 5px;
+		top: 10px;
+		transition: 300ms ease all;
 	}
 	&.error {
 		input {
@@ -316,17 +137,6 @@
 		position: relative;
 		margin: 45px 0;
 	}
-
-	&.error {
-		input {
-			border-bottom: 1px solid #db4437; 
-		}
-		.bar:before {
-			background: #db4437;
-		}
-	}
-	
-
 	.input-group-prepend {
 		.md-addon {
 			border: none;
@@ -470,6 +280,160 @@
 	}
 }
 
+/*.inputs .material-icons,*/
+/*.inputs .fa-lock,*/
+.inputs .fa-group {
+	max-width: 24px; // ???
+}
+
+/*.inputs .fa-lock,*/
+.inputs .material-icons {
+	font-size: 1.5rem;
+	/*margin-top: 0.4em;*/
+}
+
+.inputs textarea,
+.inputs.outline textarea {
+	resize: none;
+}
+
+// material design input form text outline
+.inputs-outline {
+	position: relative;
+	input,
+	textarea {
+		border: 1px solid rgba(0, 0, 0, 0.2);
+		border-radius: 4px;
+		color: #000;
+		display: inline-block;
+		font-size: 1rem;
+		padding: 1rem;
+		width: 100%;
+	}
+	label {
+		background-color: #fff;
+		border-radius: 4px;
+		color: #757575;
+		font-size: 1.05rem;
+		font-weight: normal;
+		position: absolute;
+		pointer-events: none;
+		left: 0.5rem;
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+		top: 1rem;
+		transition: 300ms ease all;
+	}
+	input:not(:disabled):not(:focus):hover,
+	textarea:not(:disabled):not(:focus):hover {
+		border: 1px solid rgba(0, 0, 0, 0.6);
+	}
+	input,
+	textarea {
+		&:focus {
+			border: 2px solid rgb(66, 133, 244);
+			outline: none;
+			& ~ label {
+				color: #4285f4;
+			}
+			&::placeholder {
+				visibility: visible;
+			}
+		}
+		&::placeholder {
+			visibility: hidden;
+		}
+	}
+	input:focus ~ label, 
+	input:valid ~ label,
+	textarea:focus ~ label,
+	textarea:valid ~ label {
+		top: -0.65rem;
+		font-size: 0.9rem;
+	}
+	&.error {
+		input {
+			border: 1px solid $danger;
+			&:focus {
+				border: 2px solid $danger;
+			}
+		}
+	}
+	&.success {
+		input {
+			border: 1px solid $success;
+			&:focus {
+				border: 2px solid $success;
+			}
+		}
+	}
+	.error-feedback {
+		color: $danger;
+		font-size: 0.8rem;
+	}
+	.success-feedback {
+		color: $success;
+		font-size: 0.8rem;
+	}
+}
+
+// spacing between password characters
+.inputs input[type="password"]:valid,
+.inputs-outline input[type="password"]:valid {
+	letter-spacing: 0.2em;
+}
+
+// different sizes inputs
+.inputs.form-sm label,
+.inputs-outline.form-sm label {
+	font-size: 0.9rem; 
+}
+.inputs.form-sm input:focus ~ label,
+.inputs.form-sm input:valid ~ label,
+.inputs-outline.form-sm input:focus ~ label,
+.inputs-outline.form-sm input:valid ~ label {
+	font-size: 0.8rem; 
+}
+.inputs.form-sm input,
+.inputs.form-sm textarea,
+.inputs-outline.form-sm input,
+.inputs-outline.form-sm textarea {
+	font-size: 0.9rem;
+}
+
+.inputs.form-lg label,
+.inputs-outline.form-lg label {
+	font-size: 1.25rem; 
+}
+.inputs.form-lg input:focus ~ label,
+.inputs.form-lg input:valid ~ label,
+.inputs-outline.form-lg input:focus ~ label,
+.inputs-outline.form-lg input:valid ~ label {
+	font-size: 1rem; 
+}
+.inputs.form-lg input,
+.inputs.form-lg textarea,
+.inputs-outline.form-lg input,
+.inputs-outline.form-lg textarea {
+	font-size: 1.2rem;
+}
+// different sizes inputs
+
+label.error,
+input:focus ~ label.error,
+input:valid ~ label.error,
+.inputs .fas.error,
+.inputs .material-icons.error {
+	color: $danger;
+}
+label.success,
+input:focus ~ label.success,
+input:valid ~ label.success,
+.inputs .fas.success,
+.inputs .material-icons.success {
+	color: $success;
+}
+
 /* default search */
 .default-search-noshadow input:focus {
 	border: 1px solid #ced4da;
@@ -514,3 +478,11 @@
 	}
 }
 // default textarea
+
+// text helper
+.text-helper {
+	color: #9e9e9e !important;
+	font-size: .8rem;
+	margin-left: 1rem !important;
+	margin-top: 0.25rem !important;
+}
