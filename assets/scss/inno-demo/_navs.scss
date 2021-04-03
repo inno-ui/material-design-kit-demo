@@ -1,0 +1,51 @@
+.nav-tabs {
+	background-color: #2bbbad;
+	border: 0;
+	border-radius: 0.25rem;
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+	padding: 0.7rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-bottom: -20px;
+	position: relative;
+	z-index: 2;
+	.nav-item {
+		.nav-link {
+			background-color: inherit;
+			border-radius: 0.25rem;
+			color: #fff;
+		}
+		&.disabled {
+			pointer-events: none !important;
+			.nav-link {
+				color: rgba(0, 0, 0, 0.38);
+			}
+		}
+		+ .nav-item {
+			margin-left: 0;
+		}
+		&.show {
+			.nav-link {
+				background-color: #2bbbad;
+				border-radius: 0.25rem;
+				color: #fff;
+				transition: all 1s;
+				&.dropdown-toggle {
+					background-color: rgba(255, 255, 255, 0.2);
+				}
+			}
+		}
+	}
+	.nav-link {
+		transition: all 0.4s;
+		border: 0;
+		color: #fff;
+	}
+	.nav-link.active,
+	.nav-item.open .nav-link {
+		background-color: rgba(255, 255, 255, 0.2);
+		border-radius: 0.25rem;
+		color: #fff;
+		transition: all 1s;
+	}
+}

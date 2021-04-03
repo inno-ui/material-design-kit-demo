@@ -913,6 +913,39 @@ $filter-colors: (
 	"white": (255, 255, 255)
 );
 
+$modal-colors: (
+	"primary": ($primary, $white),
+	"secondary": ($secondary, $white),
+	"success": ($success, $white),
+	"warning": ($warning, $white),
+	"danger": ($danger, $white),
+	"info": ($info, $white),
+	"default": ($default, $black),
+	"red": ($red, $white),
+	"pink": ($pink, $white),
+	"purple": ($purple, $white),
+	"deep-purple": ($deep-purple, $white),
+	"indigo": ($indigo, $white),
+	"blue": ($blue, $white),
+	"light-blue": ($light-blue, $white),
+	"cyan": ($cyan, $white),
+	"teal": ($teal, $white),
+	"green": ($green, $white),
+	"light-green": ($light-green, $white),
+	"lime": ($lime, $white),
+	"yellow": ($yellow, $black),
+	"amber": ($amber, $white),
+	"orange": ($orange, $white),
+	"deep-orange": ($deep-orange, $white),
+	"brown": ($brown, $white),
+	"grey": ($grey, $grey-lighten-1),
+	"blue-grey": ($blue-grey, $white),
+	"dark": ($dark, $white),
+	"black": ($black, $white),
+	"light": ($light, $black),
+	"white": ($white, $black)
+);
+
 $pagination-colors: (
 	"primary": ($primary, $white),
 	"secondary": ($secondary, $white),
