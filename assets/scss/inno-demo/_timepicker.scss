@@ -1,0 +1,11 @@
+input[type=time] {
+	font-size: 1.1em;
+}
+input[type=time]::-webkit-clear-button {
+	display: none;
+}
+input[type=time]::-webkit-inner-spin-button, 
+input[type=time]::-webkit-outer-spin-button { 
+	-webkit-appearance: none; 
+	margin: 0; 
+}
