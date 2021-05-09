@@ -167,9 +167,9 @@
 		}
 	}
 	.input-warning { // pro
-		label {
-			color: #fff;
-		}
+		// label {
+		// 	color: #fff;
+		// }
 		input:focus ~ label {
 			color: $warning;
 		}

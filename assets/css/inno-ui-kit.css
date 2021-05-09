@@ -6859,9 +6859,6 @@ label.btn input[type="checkbox"] {
 .inputs .input-success .bar:before {
   background: #0f9d58; }
 
-.inputs .input-warning label {
-  color: #fff; }
-
 .inputs .input-warning input:focus ~ label {
   color: #f4b400; }
 
